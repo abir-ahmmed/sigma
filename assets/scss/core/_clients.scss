@@ -1,0 +1,37 @@
+/*----------------------------------------*/
+/*  Clients Area
+/*----------------------------------------*/
+.clients {
+  &-area {
+
+  }
+
+  &-row {
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+  }
+
+  &-item {
+    background: #1A1A1A;
+    cursor: pointer;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      img {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(39deg) brightness(105%) contrast(102%);
+      }
+    }
+  }
+
+  &-img {
+    img {
+      filter: invert(35%) sepia(0%) saturate(0%) hue-rotate(86deg) brightness(97%) contrast(89%);
+      transition: all .3s ease-in-out;
+    }
+  }
+}

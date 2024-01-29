@@ -1,0 +1,200 @@
+// Body Mixin
+@mixin body($font-family: $body-font-family, $font-weight: $body-font-weight, $color: $body-color, $font-size: $body-font-size, $line-height: $body-line-height) {
+	font-family: $font-family;
+	font-weight: $font-weight;
+	font-size: $font-size;
+	line-height: $line-height;
+	text-rendering: optimizeSpeed;
+	color: $color;
+}
+
+
+// Utilities
+@mixin hover() {
+	&:hover {
+		@content;
+	}
+}
+@mixin focus() {
+	&:focus {
+		@content;
+	}
+}
+
+@mixin hover-focus() {
+
+	&:hover,
+	&:focus {
+		@content;
+	}
+}
+
+@mixin plain-hover-focus() {
+
+	&,
+	&:hover,
+	&:focus {
+		@content;
+	}
+}
+
+@mixin hover-focus-active() {
+
+	&:hover,
+	&:focus,
+	&:active {
+		@content;
+	}
+}
+
+@mixin before($content: '') {
+	&::before {
+		content: $content;
+		@content;
+	}
+}
+
+@mixin after($content: '') {
+	&::after {
+		content: $content;
+		@content;
+	}
+}
+
+@mixin before-after($content: '') {
+	&::before,
+	&::after {
+		content: $content;
+		@content;
+	}
+}
+
+@mixin pseudo($args: '', $loca: before, $position: absolute, $content: '') {
+	@if($loca==after) {
+		@include after($content) {
+			@if ($position==relative) {
+				@include relative($args);
+				@content;
+			}
+
+			@else {
+				@include absolute($args);
+				@content;
+			}
+		}
+	}
+
+	@else if ($loca==before-after) {
+		@include before-after($content) {
+			@if ($position==relative) {
+				@include relative($args);
+				@content;
+			}
+
+			@else {
+				@include absolute($args);
+				@content;
+			}
+		}
+	}
+
+	@else {
+		@include before($content) {
+			@if ($position==relative) {
+				@include relative($args);
+				@content;
+			}
+
+			@else {
+				@include absolute($args);
+				@content;
+			}
+		}
+	}
+}
+
+// Size 
+@mixin size($width, $height: $width) {
+	width: $width ;
+	height: $height ;
+}
+
+//Position mixin
+@mixin position($position, $args) {
+	@each $o in top right bottom left {
+		$i: index($args, $o);
+
+		@if $i and $i+1 <=length($args) and type-of(nth($args, $i + 1))==number {
+			#{$o}: nth($args, $i + 1);
+		}
+	}
+
+	position: $position;
+}
+
+//Transform mixin
+@mixin transform($args) {
+	transform: $args;
+}
+
+// Positioning helpers
+@mixin absolute($args: '') {
+	@include position(absolute, $args);
+}
+
+@mixin fixed($args: '') {
+	@include position(fixed, $args);
+}
+
+@mixin relative($args: '') {
+	@include position(relative, $args);
+}
+
+//Extra Small Screen Only
+@mixin xs {
+	@media screen and (max-width: 767px) {
+		@content;
+	}
+}
+
+//Small Screen
+@mixin xsm {
+	@media screen and (min-width: 425px) {
+		@content;
+	}
+}
+
+//Small Screen
+@mixin sm {
+	@media screen and (min-width: 576px) {
+		@content;
+	}
+}
+
+//Medium Screen
+@mixin md {
+	@media screen and (min-width: 768px) {
+		@content;
+	}
+}
+
+//Large Screen
+@mixin lg {
+	@media screen and (min-width: 992px) {
+		@content;
+	}
+}
+
+//Extra Large Screen
+@mixin xl {
+	@media screen and (min-width: 1200px) {
+		@content;
+	}
+}
+
+//Desktop Screen
+@mixin xxl {
+	@media screen and (min-width: 1400px) {
+		@content;
+	}
+}

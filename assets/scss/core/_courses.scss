@@ -1,0 +1,108 @@
+/*----------------------------------------*/
+/*  Services Area
+/*----------------------------------------*/
+.courses {
+    &-area {
+        overflow: hidden;
+        a.btn-art{
+            background: rgba(0, 163, 255, 0.15);
+            color: #00A3FF;
+            &:hover{
+                background: rgba(0, 163, 255, 0.25);
+                color: #00A3FF;
+            }
+        }
+        a.btn-graphic{
+            background: rgba(190, 4, 183, 0.15);
+            color: #BE04B7;
+            &:hover{
+                background: rgba(190, 4, 183, 0.25);
+            }
+        }
+
+        &-box{
+            
+            &-review{
+                padding-top: 8px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                &-rating{ 
+                    &-icon{
+                        margin-right: 3px;
+                    }
+                    &-number{
+                        color: $black-19;
+                        text-align: right;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: -0.28px;
+                    }
+                }
+            }
+            &-duration{
+                svg{
+                    margin: auto;
+                }
+                color: $pragraph-color;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: 0.28px;
+                padding-top: 24px;
+                padding-bottom: 16px;
+            }
+            &-title {
+                font-size: 16px;
+            }
+            &-item {                
+                border-radius: 8px;
+                box-shadow: 0px 34.358px 171.789px 0px rgba(0, 0, 0, 0.11);  
+                img.courses-area-box-img{
+                    width: 100%;
+                }      
+                &-content{
+                    padding: 0 16px 20px 16px;
+                }
+
+            }
+
+
+        }
+
+        &-post-author{
+            &-title{
+                color: var(--title-70, rgba(3, 7, 30, 0.70));
+                font-weight: 700;
+                margin: auto 0;
+                font-size: 12px;
+                line-height: 24px;
+                padding-left: 5px;
+            }
+        }
+    }
+    
+    
+    
+}
+p.post-authro-pricing-text{
+    color: var(--title-color, #03071E);
+    letter-spacing: -0.36px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin: auto;
+    padding-left: 7px;
+    padding-right: 12px;
+}
+p.post-authro-pricing-text-small{
+    color: var(--title-50, rgba(3, 7, 30, 0.50));
+    letter-spacing: -0.28px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    margin: auto;
+}
+

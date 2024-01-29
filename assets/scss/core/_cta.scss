@@ -1,0 +1,47 @@
+/*----------------------------------------*/
+/*  CTA Area
+/*----------------------------------------*/
+.cta {
+    &-area {
+        h2 {
+            font-size: 28px;
+            line-height: 1.27;
+        }
+
+        a {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 1.55;
+            display: inline-block;
+            color: $primary;
+            text-decoration: underline;
+            margin-top: 20px;
+
+            &:hover {
+                color: $white;
+            }
+        }
+
+        &-2 {
+            a {
+                font-family: $font-plus-jakarta;
+                font-weight: 800;
+                letter-spacing: 0.025em;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                color: $primary;
+                margin-top: 50px;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    &-images {
+        margin-top: -160px;
+    }
+}

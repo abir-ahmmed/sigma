@@ -1,0 +1,707 @@
+/* Small */
+@media screen and (min-width: 576px) {
+    .footer-area .solutions-subtitle{
+        top: -10px;
+        right: 115px;
+    }
+}
+
+/* Medium */
+@media screen and (min-width: 768px) {
+
+   
+
+    /* Utilities */
+    .section-title-6 {
+        font-size: 48px;
+    }
+
+    .section-text{
+        margin: 0 21%;
+    }
+
+    /* hero Area */
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+    .hero-title {
+        font-size: 44px;
+    }
+    .hero-text {
+        font-size: 16px;
+        line-height: 1.7;
+        letter-spacing: 1.2px;
+    }
+    .hero-title span.small-img {
+        display: inline-block;
+    }
+
+    .hero-subtitle-2 {
+        margin-top: 40px;
+    }
+    .hero-text-2 {
+        width: 91%;
+    }
+    .hero-timeline-box h2 {
+        font-size: 100px;
+    }
+    .hero-text-3 {
+        font-size: 20px;
+    }
+
+    /* Statistics Area */
+    .statistics-text{
+        margin-bottom: 0;
+    }
+    /* Integrations Area */
+    .categories-item {
+        margin: 5px;
+    }
+        /* Categories Area */
+        .categories-title{
+            text-align: center;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -0.36px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    /* Courses Area */
+    .courses-area-box-title{
+        font-size: 18px;
+    }
+
+    /* Contact Area */
+    .contact-title-big {
+        font-size: 80px
+    }
+    .contact-row > * {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .contact-info:first-child {
+        margin-top: 70px;
+    }
+    .contact-info:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    /*About Area*/
+    .about-title {
+        margin-left: -95px;
+    }
+
+    /*Process Area*/
+    .process-tab .nav-link {
+        padding: 12px 40px;
+    }
+
+    /*Review Area*/
+    .review-text{
+        font-size: 14px;
+    }
+
+    /*Clients Area*/
+    .clients-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*Review Area*/
+    .review-quote {
+        font-size: 22px;
+    }
+
+    /*Footer Area*/
+
+    .footer-area-title{
+        letter-spacing: -0.58px;
+        font-size: 26px;
+        line-height: 32px;  
+        margin: 0 8%;
+    }
+    .footer-area-text{
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 25px;
+    }
+
+    .footer-content-3 a {
+        font-size: 28px;
+    }
+    .footer-content-3 p {
+        width: 70%;
+    }
+    .footer-social-link-3 ul {
+        justify-content: flex-end;
+    }
+    .footer-menu-2 ul li a {
+        text-align: right;
+    }
+
+    .footer-menu ul li a{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .footer-menu-title{
+        
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.22px;
+    }
+
+    .footer-area .solutions-subtitle{
+        top: -10px;
+        right: 115px;
+        line-height: 16px;
+        font-size: 11px;
+    }
+
+    .copiright-area{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+}
+
+/* Large */
+@media screen and (min-width: 992px) {
+
+    /* Utilities */
+    .section-title {
+        font-size: 40px;
+    }
+    .section-text {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        margin: 0 26%;
+    }
+
+    .section-item-title {
+        font-size: 40px;
+    }
+    .section-item-title-2 {
+        font-size: 36px;
+    }
+
+    
+
+    /* Header Area */
+    .header-area .navbar {
+        padding: 34px 0;
+    }
+
+    a.navbar-logo{
+        margin-top: -10px;
+    }
+    .header-area .navbar.navbar_fixed {
+        padding: 15px 0;
+    }
+    
+    .header-area .navbar-nav > .nav-item .mobile_dropdown_icon {
+        display: none;
+    }
+    .header-area .navbar-nav > .nav-item.submenu .dropdown-menu {
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+        opacity: 0;
+        visibility: hidden;
+        display: block;
+    }
+    .header-area .navbar-nav > .nav-item.submenu .dropdown-menu::before {
+	    display: block;
+    }
+    .header-area .navbar-nav > .nav-item.submenu:hover .dropdown-menu {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+        opacity: 1;
+        visibility: visible;
+    }
+    .header-area .navbar.navbar_fixed .navbar-nav > .nav-item.submenu:hover .dropdown-menu {
+        -webkit-transform: translateY(26px);
+        transform: translateY(26px);
+    }
+    .header-area .navbar-collapse {
+        background: initial;
+        overflow-y: initial;
+        box-shadow: none;
+        max-height: max-content;
+        height: auto;
+        border-radius: 0;
+        padding: 0;
+        margin-top: 0;
+    }
+
+
+    .header-area .right-nav {
+        margin-left: 40px;
+        margin-top: 0;
+        display: flex;
+    }
+
+    .header-area .right-nav-chart-number{
+        right: -8px;
+    }
+
+    .header-area .right-nav-btn{
+        left: 30px;
+        margin-top: 0;
+    }
+
+    /* hero Area */
+    .hero-area {
+        padding: 252px 0 120px;
+    }
+    .hero-area-btn{
+        justify-content: left;
+    }
+
+    .hero-area .hero-right .ui-design{
+        display: flex;
+    }
+    .hero-area .hero-courses .metric{
+        display: block;
+    }
+    
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-title-skills-underline-shapes{
+        bottom: -13px;
+    }
+
+    .hero-content h4 {
+        font-size: 30px;
+    }
+    .hero-timeline-box h2 {
+        font-size: 140px;
+    }
+    .hero-content a {
+        font-size: 20px;
+    }
+    .hero-text-3 {
+        font-size: 24px;
+    }
+    
+    .hero-area .ui-design {
+        visibility: visible;
+    }
+
+
+    
+    /* Courses Area */
+    .courses-area-box-item-content{
+        padding: 0 10px 14px 10px;
+    }
+    .courses-area-box-duration{
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 33px;
+        padding-bottom: 25px;
+    }
+
+    .courses-area-box-review{
+        padding-top: 16px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 15px;
+    }
+
+    .courses-area-post-author-title{
+        font-size: 14px;
+        line-height: 28px;
+        padding-left: 8px;
+    }
+
+    p.post-authro-pricing-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    p.post-authro-pricing-text-small{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /* Team Area */
+
+    .team-title{        
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: -0.22px;
+        margin-top: 24px;
+        margin-bottom: 4px;
+    }
+    .team-subtitle{        
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        
+    }
+    /* Review Area */
+    .review-rating svg{
+        margin-top: 5px;
+    }
+    .review-title{
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 5px;
+    }
+
+
+    .small-title{
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: -0.28px;
+      }
+      .small-text{
+        font-size: 10px;
+        line-height: 26px;
+      }
+    /* Work Area */
+  
+
+    /* Categories Area */
+
+
+    /*Process Area*/
+    
+
+    /* Contact Area */
+
+
+    /*About Area*/
+    .about-content p {
+        font-size: 18px;
+    }
+
+    /*News Area*/
+    .news-content-left {
+        width: 52%;
+    }
+    .news-content h3 {
+        font-size: 32px;
+    }
+
+    /*Clients Area*/
+    .clients-row {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    /*Product Area*/
+    
+
+    /*Articles area*/
+    .articles-subtitle{
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 34px;
+        margin-bottom: 8px;
+    }
+    .articles-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .articles-text{
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 8px;
+        padding-bottom: 24px;
+    }
+
+    /* Footer Area */
+    .footer-menu {
+        padding-top: 0;
+    }
+    .footer-area-title{
+        letter-spacing: -0.58px;
+        font-size: 28px;
+        line-height: 36px;  
+        margin: 0 18%;
+    }
+    .footer-area-text{
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+
+    .footer-area-content-text{
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 36px;
+    }
+
+    .footer-menu ul li a{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .copiright-area p{
+        text-align: left;
+    }
+    .footer-social-link{
+        display: block;
+    }
+    .footer-area .solutions-subtitle{
+        top: -8px;
+        right: 55px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+    .copiright-area{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+/* Extra large */
+@media screen and (min-width: 1200px) {
+
+    .section-text{
+        margin: 0 32.5%;
+    }
+
+    /* hero Area */
+
+
+    .hero-title {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+    .hero-text {
+        font-size: 20px;
+    }
+
+    .hero-title-skills-underline-shapes{
+        bottom: -22px;
+    }
+
+    .header-area .navbar-nav {
+        gap: 45px;
+    }
+
+    .hero-area .hero-right .hero-ui{
+        left: -48px;
+    }
+    /* Categories Area */
+    .categories-item {
+        margin: 20px;
+    }
+    .categories-title{
+
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* courses Area */
+    .courses-area-box-title{
+        font-size: 20px;
+    }
+    /*About area*/
+    .about-tab .nav .nav-link {
+        font-size: 20px;
+    }
+
+    /*Review area*/
+    .review-slider {
+        height: 60vh;
+    }
+    .review-item {
+        width: 55%;
+    }
+
+    .review-text{
+        font-size: 15px;
+    }
+
+    .review-quote {
+        font-size: 28px;
+        margin: 60px 0 38px;
+    }
+    .review-slider .swiper-button-next,
+    .review-slider .swiper-button-prev {
+        width: 74px;
+        height: 74px;
+    }
+
+    
+    .header-area-3 .collapse.show + .navbar-toggler {
+        top: 100px;
+        right: 100px;
+    }
+
+    /* Footer Area */
+    .footer-area-title{
+        letter-spacing: -0.58px;
+        font-size: 29px;
+        line-height: 39px;  
+        margin: 0 25%;
+    }
+    .footer-area-text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .footer-menu-title{        
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: -0.22px;
+    }
+
+    .footer-menu ul li a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer-area .solutions-subtitle{
+        top: -8px;
+        right: -8px;
+    }
+}
+
+/* Extra extra large */
+@media screen and (min-width: 1400px) {
+    .container-md{
+        max-width: 1348px;
+        margin: 0 auto;
+    }
+    .container-lg{
+        max-width: 1359px;
+        margin: 0 auto;
+    }
+
+    .container-xl{
+        max-width: 1648px;
+        margin: 0 auto;
+    }
+    /* Utilities */
+    .section-title {
+        font-size: 47px;
+    }
+
+    .section-item-title {
+        font-size: 60px;
+    }
+
+
+  
+
+    /* hero Area */
+    
+
+    
+    .hero-img-2 {
+        width: max-content;
+    }
+
+    .hero-area .hero-courses .metric{
+        right: -120px;
+    }
+
+    .hero-area .hero-courses .metric-title{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: -0.48px;
+    }
+    .hero-area .hero-courses .metric-subtitle{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 0;
+    }
+
+    /* Services Area */
+    .services-item-title {
+        font-size: 22px;
+    }
+    .services-item p {
+        font-size: 18px;
+    }
+
+    /* Integrations Area */
+    .courses-area-box a,h6{
+        font-size: 14px;
+        font-weight: 700;
+        
+    }
+
+    /* Strategies Area */
+    .strategies-content-item .details h4 {
+        font-size: 20px;
+    }
+    .strategies-content-item .details p {
+        font-size: 18px;
+    }
+
+    /* Work Area */
+    .courses-area
+    .courses-area-box
+    .courses-area-box-title{
+        font-size: 20px;
+    }
+    .courses-area-box-title
+
+    /* Team Area */
+    .team-item h4 {
+        font-size: 25px;
+        margin-top: 37px;
+    }
+    .team-item p {
+        margin-top: 14px;
+    }
+
+    /* Popular Courses Area */
+
+
+    /* CTA Area */
+    .cta-area h2 {
+        font-size: 55px;
+    }
+    .cta-area a {
+        font-size: 55px;
+        margin-top: 36px;
+    }
+
+    /* Contact Area */
+    .contact-row {
+        margin: 0 -70px;
+    }
+    .contact-title-big {
+        font-size: 150px;
+        margin-top: -70px;
+    }
+    .contact-form-title {
+        font-size: 32px;
+    }
+
+    /* Review Area */
+    .review-item{        
+        padding: 45px 30px 30px 30px;
+    }
+    .review-text{
+        font-size: 16px;
+    }
+
+    /*Articles area*/
+    .articles-title{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* Footer Area */
+    .footer-area-content-text{
+        margin-left: 32px;
+        width: 70%;
+        margin-top: 50px;
+    }
+}

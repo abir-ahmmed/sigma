@@ -1,0 +1,308 @@
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  @include body();
+
+
+}
+
+
+
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  // display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.h1,
+h1 {
+ font-size: 66px;
+ line-height: 1;
+}
+
+.h2,
+h2 {
+ font-size: 28px;
+ line-height: 1.2;
+ margin-top: -6px;
+
+ @include lg {
+  font-size: 38px;
+ }
+
+ @include xl {
+  font-size: 48px;
+ }
+}
+
+.h3,
+h3 {
+ font-size: 36px;
+ line-height: 1.2;
+}
+
+.h4,
+h4 {
+ font-size: 28px;
+ line-height: 1.2;
+}
+
+.h5,
+h5 {
+ font-size: 22px;
+ line-height: 1.2;
+}
+
+.h6,
+h6 {
+ font-size: 18px;
+ line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: $black
+}
+
+.small-title{
+  color: $black-7;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.small-text{
+  color: $gray-7;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.paragraph-color{
+  color: $pragraph-color;
+}
+
+.bg {
+  &-black {
+    background-color: $black;
+
+    &-1 {
+      background-color: $black-1;
+    }
+
+    &-4 {
+      background-color: $black-4;
+    }
+
+    &-18 {
+      background-color: $black-18;
+    }
+  }
+
+  &-1 {
+    background-color: $bg-1;
+  }
+
+  &-2 {
+    background-color: $bg-2;
+  }
+
+  &-3 {
+    background-color: $bg-3;
+  }
+
+  &-4 {
+    background-color: $bg-4;
+  }
+  &-6 {
+    background-color: $bg-6;
+  }
+  &-blue-light-50{
+    background-color: #F0F9FF;
+  }
+  &-pink-50{
+    background-color: #FDF2FA;
+  }
+  &-ros-50{
+    background-color: #FFF1F3;
+  }
+  &-success-50{
+    background-color: #ECFDF3;
+  }
+
+  &-primary-50{
+    background-color: #F9F5FF;
+  }
+  &-gray-blue-50{
+    background-color: #F8F9FC;
+  }
+}
+
+.color-primary {
+  color: $primary;
+}
+
+.text{
+  &-gray{
+    &-2{
+      color: $gray-2;
+    }
+    &-3{
+      color: $gray-3;
+    }
+
+    
+  }
+  &-pink{
+    color:#C11574 ;
+  }
+  &-ros{
+    color: #C01048;
+  }
+
+  &-blue-light{
+    color: #026AA2;
+  }
+  &-success-700{
+    color: #027A48;
+  }
+  &-primary-700{
+    color: #6941C6;
+  }
+  &-gray-blue-700{
+    color: #363F72;
+  }
+
+  &-blue{
+    &-101{
+      color: #026AA2;
+    }
+  }
+
+}
+
+
+
+
+.section {
+  &-title {
+    font-size: 28px;
+    line-height: 1.3;
+
+  }
+  
+  &-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 auto;
+  }
+  &-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.88;
+    text-transform: uppercase;
+    text-shadow: 0px 25px 100px rgba(38, 203, 169, 0.18);
+
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: inline-block;
+    margin-bottom: 5px;
+
+    &-2 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.43;
+    }
+  }
+
+  &-item {
+    &-title {
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 1.17;
+
+      &-2 {
+        font-size: 24px;
+        line-height: 1.52;
+      }
+    }
+  }
+}
+
+.border {
+  &-b {
+    border-bottom: 2px solid $black-5;
+  }
+}
+
+

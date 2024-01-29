@@ -1,0 +1,116 @@
+.btn {
+    border: transparent;
+    color: $black;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 12px 25px;
+    transition: all .3s ease-in-out;
+
+    @include lg {
+        font-size: 16px;
+        padding: 6px 36px;
+    }
+
+    i {
+        font-size: 20px;
+        transition: all .3s ease-in-out;
+    }
+
+    &-sigma {
+        color: $black;
+        background: $primary;
+        letter-spacing: 1.1px;
+        font-weight: 700;
+
+        &:hover {
+            background: $white;
+            color: $primary;
+        }
+    }
+    &-courses {
+        border-radius: 2px;
+        padding: 0 10px;
+    }
+
+    &-articles{
+        padding: 2px 10px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    &-intro{
+        margin: 0;
+        padding: 0;
+    }
+
+    &-section{
+        border: 2px solid;
+        border-radius: 5px;
+        padding: 10px 20px;
+
+        &:hover{
+            background-color: $primary;
+            color: $white;
+            transition-duration: 0.3s
+        }
+    }
+    &-white {
+        background-color: $white;
+        color: $black;
+
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+
+    &-black {
+        border-radius: 0;
+        background-color: $black;
+        color: $white;
+
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+
+    &-bordered {
+        border: 2px solid $white;
+
+        &:hover {
+            border-color: $primary;
+            color: $primary;
+        }
+
+        &-black {
+            border-radius: 0;
+            border: 2px solid $black;
+            color: $black;
+            font-weight: 700;
+            padding: 20px 35px;
+
+            &:hover {
+                border-color: $primary;
+                color: $primary;
+            }
+        }
+    }
+    &-rounded {
+        border-radius: 48px;
+
+        &-lg {
+            border-radius: 8px;
+        }
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,65 @@
+/*----------------------------------------*/
+/*  FAQ Area
+/*----------------------------------------*/
+.faq {
+  &-area {
+
+  }
+
+  &-accordion {
+    .accordion {
+      &-item {
+        border-radius: 0;
+        border-color: $black-5;
+        background-color: inherit;
+        color: $white;
+        padding: 35px 25px 35px 68px;
+      }
+
+      &-button {
+        background-color: inherit;
+        color: $white;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.25;
+        padding: 0;
+
+        &:before {
+          content: "\f067";
+          font-family: "Font Awesome 6 Free";
+          font-weight: 900;
+          font-size: 14px;
+          border-radius: 50%;
+          @include  size(22px);
+          @include absolute(left -45px top 13%);
+          background-color: $primary;
+          color: $black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        &:after {
+          display: none;
+        }
+
+        &:focus {
+          border: none;
+          box-shadow: none;
+        }
+
+        &:not(.collapsed) {
+          box-shadow: none;
+
+          &:before {
+            content: "\f068";
+          }
+        }
+      }
+
+      &-body {
+        padding: 12px 0 0 0;
+      }
+    }
+  }
+}

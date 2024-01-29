@@ -1,0 +1,291 @@
+/*----------------------------------------*/
+/*  Contact Area
+/*----------------------------------------*/
+.contact {
+  &-area {
+    h2 {
+      font-family: $font-plus-jakarta;
+    }
+
+    &-2 {
+      h2 {
+        font-weight: 800;
+      }
+    }
+  }
+
+  &-content {
+    p {
+      font-size: 24px;
+      line-height: 1.46;
+      color: $white;
+      margin-bottom: 30px;
+    }
+    a {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 36px;
+      color: $white;
+      text-decoration: underline;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  &-title {
+    font-size: 45px;
+    line-height: 1.2;
+
+    span {
+      display: block;
+      color: transparent;
+      -webkit-text-stroke: 1px $white;
+    }
+
+    &-big {
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 1.25;
+      color: transparent;
+      -webkit-text-stroke: 1px $white;
+      opacity: 0.15;
+      text-align: center;
+    }
+  }
+
+  &-row {
+    position: relative;
+    z-index: 111;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+
+    >* {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: 100%;
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+    }
+  }
+
+  &-box {
+    background: $white;
+    padding: 24px 30px;
+
+    h4 {
+      color: $black;
+      font-size: 20px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 12px;
+      }
+
+      h5 {
+        font-size: 12px;
+        line-height: 1.83;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $black;
+      }
+
+      p {
+        color: $black;
+
+        a {
+          color: $primary;
+        }
+      }
+
+      a {
+        color: $black;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  &-info {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+    &:first-child {
+      margin-top: 40px;
+    }
+
+    span {
+      display: block;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    a {
+      display: inline-block;
+      font-size: 18px;
+      letter-spacing: 0.08em;
+      color: $white;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  &-form {
+    border-radius: 16px;
+    padding: 30px 30px 40px;
+
+    &-title {
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 1.38;
+    }
+
+    .form {
+      &-label {
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+
+      &-input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid $black-15;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        line-height: 1.72;
+        padding-bottom: 12px;
+        margin-bottom: 40px;
+
+        &:focus-visible {
+          outline: none;
+          border-color: $primary;
+        }
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+
+      &-radio {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+
+        &:checked {
+          ~ .form-radio-label {
+            border-color: $primary;
+            background-color: $primary;
+          }
+        }
+
+        &-label {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 1.75;
+          border: 1px solid $white;
+          border-radius: 29px;
+          padding: 6px 20px;
+          cursor: pointer;
+          transition: all .3s ease-in-out;
+
+          &:hover {
+            border-color: $primary;
+            background-color: $primary;
+          }
+        }
+      }
+
+      &-file {
+        &-wrapper {
+          position: relative;
+          background: $black-16;
+          border-radius: 8px;
+          padding: 30px;
+          margin-bottom: 40px;
+        }
+
+        &-icon {
+          @include size(62px);
+          border-radius: 50%;
+          background: $gray-10;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        &-text {
+          font-size: 14px;
+          line-height: 1.7;
+
+          span {
+            font-weight: 700;
+          }
+        }
+
+        &-label {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 12px;
+        }
+
+        &-input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .nice-select-common {
+      width: 100%;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid $black-15;
+      color: $white;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.56;
+      padding: 0 30px 12px 0;
+      margin-bottom: 40px;
+
+      &:after {
+        @include size(8px);
+        margin-top: -10px;
+      }
+
+      .list {
+        width: 100%;
+        background: $black-4;
+      }
+      .option {
+        &:hover,
+        &.focus,
+        &.selected.focus {
+          background: $black-16;
+        }
+      }
+    }
+
+    .btn {
+      font-family: $font-plus-jakarta;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+}

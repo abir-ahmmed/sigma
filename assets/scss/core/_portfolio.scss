@@ -1,0 +1,225 @@
+/*----------------------------------------*/
+/*  Portfolio Area
+/*----------------------------------------*/
+.portfolio {
+  &-area {
+    &-2 {
+      padding-left: 314px;
+      padding-bottom: 70px;
+    }
+  }
+
+  &-slider {
+    height: 100vh;
+    margin-left: 100px;
+  }
+
+  &-item {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+
+    &:hover {
+      .portfolio-img {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &-img {
+    @include size(100%);
+    object-fit: cover;
+    transition: all .3s linear;
+  }
+
+  &-content {
+    @include absolute(left 0 bottom 0);
+    padding: 55px 25px;
+
+    h2 {
+      font-family: $font-plus-jakarta;
+      font-weight: 400;
+      font-size: 30px;
+    }
+
+    p {
+      color: #B4B4B4;
+      font-family: $font-plus-jakarta;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.43;
+      margin-top: 8px;
+    }
+  }
+
+  &-nav {
+    gap: 85px;
+
+    .nav-link {
+      border: none;
+      background: transparent;
+      font-family: $font-plus-jakarta;
+      font-size: 70px;
+      line-height: .86;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: $black;
+      position: relative;
+      text-align: left;
+      padding: 0 100px 16px 0;
+      opacity: 0.1;
+
+      @include pseudo(bottom 0 right 0) {
+        @include size(0, 1px);
+        background: #FC2557;
+        transition: width .3s linear;
+      }
+
+      .number {
+        @include absolute(left -24px top 0);
+        transform: rotate(-90deg);
+        font-family: $font-plus-jakarta;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 0.02em;
+      }
+
+      span {
+        display: block;
+        font-family: $font-plus-jakarta;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.43;
+        margin-top: 12px;
+        color: #666666;
+      }
+
+      &.active,
+      &:hover {
+        opacity: 1;
+
+        &:before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &-tab {
+    &-pane {
+      .tab {
+        &-img {
+          display: block;
+          position: relative;
+          background-size: cover;
+          background-position: 50%;
+          z-index: 1;
+          //height: 200px;
+          ////321
+          //height: calc(200px + 160*(100vw - 320px)/447);
+          ////768
+          //height: 360px;
+          ////1152
+          //height: calc(432px + 108*(100vw - 1151px)/289);
+          ////1441
+          //height: calc(540px + 100*(100vw - 1440px)/480);
+        }
+        &-title {
+          @include absolute(bottom 0 left 0);
+          font-family: $font-plus-jakarta;
+          font-size: 200px;
+          line-height: .75;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: $white;
+        }
+        &-number {
+          @include absolute(bottom 0 right 0);
+          font-family: $font-plus-jakarta;
+          font-weight: 700;
+          font-size: 90px;
+          line-height: 0.61;
+          letter-spacing: 0.02em;
+          color: #EEEEEE;
+          transform: rotate(-90deg);
+        }
+        &-content {
+          max-width: 905px;
+          margin-top: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .skill {
+            &-title {
+              font-family: $font-plus-jakarta;
+              font-weight: 600;
+              font-size: 22px;
+              line-height: 1.64;
+              color: $black;
+              margin-bottom: 16px;
+            }
+
+            &-list {
+              ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                  font-family: $font-plus-jakarta;
+                  font-weight: 600;
+                  font-size: 12px;
+                  line-height: 1.5;
+                  letter-spacing: 0.05em;
+                  color: $black;
+
+                  &:not(:last-child) {
+                    margin-bottom: 10px;
+                  }
+                }
+              }
+            }
+
+            &-para {
+              font-family: $font-plus-jakarta;
+              font-size: 14px;
+              line-height: 1.86;
+              color: $gray-6;
+              max-width: 325px;
+            }
+
+            &-link {
+              border: 2px solid #FC2557;
+              position: relative;
+              font-family: $font-plus-jakarta;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 1.57;
+              color: $white;
+              text-transform: uppercase;
+              padding: 20px 40px;
+              z-index: 1;
+              overflow: hidden;
+
+              @include pseudo(left 0 top 0) {
+                @include size(100%);
+                display: block;
+                background: #FC2557;
+                z-index: -1;
+                animation: bg-slide-in .4s forwards;
+              }
+
+              &:hover {
+                color: #FC2557;
+                &:before {
+                  animation: bg-slide-out .25s forwards;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
