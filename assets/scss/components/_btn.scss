@@ -30,7 +30,13 @@
             background: $white;
             color: $primary;
         }
+        &-2{
+            &:hover{
+                background-color: $primary;
+            }
+        }
     }
+    
     &-courses {
         border-radius: 2px;
         padding: 0 10px;
@@ -54,6 +60,9 @@
         border-radius: 5px;
         padding: 10px 20px;
 
+        &:hover svg{
+            rotate: 45deg;
+        }
         &:hover{
             background-color: $primary;
             color: $white;

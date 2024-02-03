@@ -445,6 +445,9 @@
 .pb-65 {
   padding-bottom: 65px;
 }
+.pb-65 {
+  padding-bottom: 65px;
+}
 .pb-70 {
   padding-bottom: 70px;
 }
@@ -949,6 +952,9 @@
   .pt-lg-55 {
     padding-top: 55px;
   }
+  .pt-lg-59 {
+    padding-top: 59px;
+  }
   .pt-lg-60 {
     padding-top: 60px;
   }
@@ -997,6 +1003,9 @@
   }
   .pb-lg-30 {
     padding-bottom: 30px;
+  }
+  .pb-lg-32 {
+    padding-bottom: 32px;
   }
   .pb-lg-35 {
     padding-bottom: 35px;
@@ -1067,6 +1076,9 @@
   .pr-lg-20 {
     padding-right: 20px;
   }
+  .pr-lg-24 {
+    padding-right: 24px;
+  }
   .pr-lg-25 {
     padding-right: 25px;
   }
@@ -1123,6 +1135,9 @@
   }
   .pl-lg-20 {
     padding-left: 20px;
+  }
+  .pl-lg-24 {
+    padding-left: 24px;
   }
   .pl-lg-25 {
     padding-left: 25px;
@@ -1282,6 +1297,21 @@
         padding-top: 215px;
       }
     }
+    &-198 {
+      padding-top: 70px;
+
+      @include md {
+        padding-top: 90px;
+      }
+
+      @include lg {
+        padding-top: 140px;
+      }
+
+      @include xl {
+        padding-top: 198px;
+      }
+    }
     &-180 {
       padding-top: 80px;
 
@@ -1311,6 +1341,21 @@
 
       @include xl {
         padding-top: 160px;
+      }
+    }
+    &-156 {
+      padding-top: 76px;
+
+      @include md {
+        padding-top: 96px;
+      }
+
+      @include lg {
+        padding-top: 138px;
+      }
+
+      @include xl {
+        padding-top: 156px;
       }
     }
 
@@ -1375,6 +1420,17 @@
 
       @include xl {
         padding-top: 80px;
+      }
+    }
+    &-69 {
+      padding-top: 24px;
+
+      @include lg {
+        padding-top: 46px;
+      }
+
+      @include xl {
+        padding-top: 69px;
       }
     }
     &-64 {
@@ -1497,7 +1553,7 @@
       }
     }
 
-    &-80 {
+    &-81 {
       padding-bottom: 40px;
 
       @include lg {
@@ -1506,6 +1562,17 @@
 
       @include xl {
         padding-bottom: 80px;
+      }
+    }
+    &-80 {
+      padding-bottom: 40px;
+
+      @include lg {
+        padding-bottom: 61px;
+      }
+
+      @include xl {
+        padding-bottom: 81px;
       }
     }
 

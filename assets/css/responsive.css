@@ -27,6 +27,14 @@
     }
     .hero-title {
         font-size: 44px;
+        line-height: 50px;
+        letter-spacing: -1.2px;
+    }
+    .hero-area-2 .hero-title {
+        font-size: 44px;
+        line-height: 50px;
+        letter-spacing: -1.2px;
+        padding-right: 110px;
     }
     .hero-text {
         font-size: 16px;
@@ -39,6 +47,10 @@
 
     .hero-subtitle-2 {
         margin-top: 40px;
+    }
+
+    .hero-title-skills .underline-shapes{
+        bottom: -20px;
     }
     .hero-text-2 {
         width: 91%;
@@ -68,7 +80,7 @@
             line-height: 24px;
         }
     /* Courses Area */
-    .courses-area-box-title{
+    .courses-title{
         font-size: 18px;
     }
 
@@ -114,13 +126,13 @@
 
     /*Footer Area*/
 
-    .footer-area-title{
+    .footer-title{
         letter-spacing: -0.58px;
         font-size: 26px;
         line-height: 32px;  
         margin: 0 8%;
     }
-    .footer-area-text{
+    .footer-text{
         font-size: 14px;
         line-height: 23px;
         margin-bottom: 25px;
@@ -190,7 +202,8 @@
 
     /* Header Area */
     .header-area .navbar {
-        padding: 34px 0;
+        padding-top: 29px;
+        padding-bottom: 21px;
     }
 
     a.navbar-logo{
@@ -243,6 +256,13 @@
         display: flex;
     }
 
+    .header-area .right-nav .right-nav-search{
+        padding-bottom: 0;
+    }
+    .header-area .right-nav .right-nav-chart{
+        padding-bottom: 0;
+    }
+
     .header-area .right-nav-chart-number{
         right: -8px;
     }
@@ -268,12 +288,12 @@
     }
     
     .hero-title {
-        font-size: 36px;
+        font-size: 48px;
+        line-height: 60px;
+        margin-top: 0;
     }
 
-    .hero-title-skills-underline-shapes{
-        bottom: -13px;
-    }
+    
 
     .hero-content h4 {
         font-size: 30px;
@@ -295,34 +315,34 @@
 
     
     /* Courses Area */
-    .courses-area-box-item-content{
+    .courses-content{
         padding: 0 10px 14px 10px;
     }
-    .courses-area-box-duration{
+    .courses-duration{
         font-size: 14px;
         line-height: 22px;
         padding-top: 33px;
         padding-bottom: 25px;
     }
 
-    .courses-area-box-review{
+    .courses-review{
         padding-top: 16px;
         padding-bottom: 8px;
         padding-left: 16px;
         padding-right: 15px;
     }
 
-    .courses-area-post-author-title{
+    .courses-author .author-title{
         font-size: 14px;
-        line-height: 28px;
-        padding-left: 8px;
+        line-height: 19px;
+        padding-left: 7px;
     }
 
-    p.post-authro-pricing-text {
+    p.post-authro .author-text {
         font-size: 18px;
         line-height: 28px;
     }
-    p.post-authro-pricing-text-small{
+    p.post-authro .author-text-small{
         font-size: 14px;
         line-height: 28px;
     }
@@ -417,20 +437,20 @@
     .footer-menu {
         padding-top: 0;
     }
-    .footer-area-title{
+    .footer-title{
         letter-spacing: -0.58px;
         font-size: 28px;
         line-height: 36px;  
         margin: 0 18%;
     }
-    .footer-area-text{
+    .footer-text{
         font-size: 15px;
         line-height: 24px;
         margin-top: 16px;
         margin-bottom: 40px;
     }
 
-    .footer-area-content-text{
+    .footer-area-content .footer-text-2{
         font-size: 16px;
         line-height: 26px;
         margin-top: 36px;
@@ -473,22 +493,21 @@
 
     .hero-title {
         font-size: 60px;
-        margin-bottom: 40px;
+        line-height: 72px;
     }
     .hero-text {
         font-size: 20px;
     }
 
-    .hero-title-skills-underline-shapes{
-        bottom: -22px;
-    }
+    
 
     .header-area .navbar-nav {
         gap: 45px;
     }
 
     .hero-area .hero-right .hero-ui{
-        left: -48px;
+        left: -110px;
+        bottom: 110px;
     }
     /* Categories Area */
     .categories-item {
@@ -501,8 +520,14 @@
     }
 
     /* courses Area */
-    .courses-area-box-title{
+    .courses-title{
         font-size: 20px;
+    }
+
+    .courses-author .author-title{
+        font-size: 14px;
+        line-height: 28px;
+        padding-left: 8px;
     }
     /*About area*/
     .about-tab .nav .nav-link {
@@ -510,9 +535,7 @@
     }
 
     /*Review area*/
-    .review-slider {
-        height: 60vh;
-    }
+    
     .review-item {
         width: 55%;
     }
@@ -525,10 +548,15 @@
         font-size: 28px;
         margin: 60px 0 38px;
     }
-    .review-slider .swiper-button-next,
+    .review-slider .swiper-button-next{
+        right: 14px;
+    }
     .review-slider .swiper-button-prev {
-        width: 74px;
-        height: 74px;
+        left: 14px;
+    }
+
+    .review-area .review-slider{
+        padding:0 32px;
     }
 
     
@@ -538,13 +566,13 @@
     }
 
     /* Footer Area */
-    .footer-area-title{
+    .footer-title{
         letter-spacing: -0.58px;
         font-size: 29px;
         line-height: 39px;  
         margin: 0 25%;
     }
-    .footer-area-text{
+    .footer-text{
         font-size: 16px;
         line-height: 26px;
     }
@@ -570,6 +598,10 @@
 @media screen and (min-width: 1400px) {
     .container-md{
         max-width: 1348px;
+        margin: 0 auto;
+    }
+    .container-md-2{
+        max-width: 1344px;
         margin: 0 auto;
     }
     .container-lg{
@@ -629,7 +661,7 @@
     }
 
     /* Integrations Area */
-    .courses-area-box a,h6{
+    .courses-box a,h6{
         font-size: 14px;
         font-weight: 700;
         
@@ -644,12 +676,8 @@
     }
 
     /* Work Area */
-    .courses-area
-    .courses-area-box
-    .courses-area-box-title{
-        font-size: 20px;
-    }
-    .courses-area-box-title
+
+
 
     /* Team Area */
     .team-item h4 {
@@ -699,7 +727,7 @@
     }
 
     /* Footer Area */
-    .footer-area-content-text{
+    .footer-area-content .footer-text-2{
         margin-left: 32px;
         width: 70%;
         margin-top: 50px;

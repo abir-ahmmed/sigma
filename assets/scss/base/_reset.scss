@@ -44,6 +44,16 @@ body {
 
 }
 
+.body-2{
+  h1,h2,h3,h4,h5,h6{
+    color: $title-color
+  }
+
+  p{
+    color: $pragraph-color;
+  }
+}
+
 
 
 
@@ -147,9 +157,7 @@ h6 {
   line-height: 22px;
 }
 
-.paragraph-color{
-  color: $pragraph-color;
-}
+
 
 .bg {
   &-black {
@@ -166,6 +174,9 @@ h6 {
     &-18 {
       background-color: $black-18;
     }
+  }
+  &-blue-secondary{
+    background-color: $secondary-blue;
   }
 
   &-1 {
@@ -209,7 +220,41 @@ h6 {
 
 .color-primary {
   color: $primary;
+  &-2{
+    color: $primary-2;
+  }
 }
+
+.paragraph-color{
+  color: $pragraph-color;
+}
+.border-color{
+  color: $primary-2;
+}
+.color{
+  &-primary{
+    color: $primary;
+  }
+  &-primary-2{
+    color: $primary-2;
+  }
+
+  &-white{
+    color: $white;
+  }
+
+  &-paragraph{
+    color: $pragraph-color;
+  }
+
+  &-title{
+    &-50{
+      color: rgba(3, 7, 30, 0.50);
+    }
+  }
+}
+
+
 
 .text{
   &-gray{
@@ -229,8 +274,8 @@ h6 {
     color: #C01048;
   }
 
-  &-blue-light{
-    color: #026AA2;
+  &-blue{
+    color: $blue-light;
   }
   &-success-700{
     color: #027A48;
@@ -300,6 +345,15 @@ h6 {
 }
 
 .border {
+  &-t{
+    border-top: 1px solid;
+    &-p2{
+      border-top: 1px solid $primary-2;
+    }
+    &-w{
+      border-top: 1px solid $white;
+    }
+  }
   &-b {
     border-bottom: 2px solid $black-5;
   }

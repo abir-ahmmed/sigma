@@ -152,11 +152,11 @@
         },
         loop:true,
         spaceBetween: 10,
-        // centeredSlides: true,
-        // autoplay:{
-        //   delay:2500,
-        //   disableOnInteraction:false,
-        // },
+        //  centeredSlides: true,
+         autoplay:{
+           delay:2500,
+           disableOnInteraction:false,
+         },
         breakpoints: {
           640: {
             slidesPerView: 2,
