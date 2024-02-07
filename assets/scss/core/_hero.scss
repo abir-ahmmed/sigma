@@ -28,6 +28,84 @@
             h1,h2,h3,h4,h5,h6{
                 color: $title-color;
             }
+
+            .hero-users{
+                .user-items{
+                    position: relative;
+                    .user-btn{
+                      
+                        border: none;
+                        background: none;
+                        
+                    }
+                    button.user-btn.user-1{
+                        z-index: -9;
+                    }
+                    button.user-btn.user-2{                        
+                        margin-left: -23px;
+                        z-index: -8;
+                    }
+                    button.user-btn.user-3{
+                        margin-left: -23px;
+                        z-index: -7;
+                    }
+                    
+                    h6.smallest-title {
+                        border: 1px solid $white-6;
+                        border-radius: 50%;
+                        padding: 13px 6px;
+                        margin-left: -20px;
+                        background: $white-2;
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: $title-color;
+                    }
+
+                    
+                    
+                }
+
+                .users-text{
+                    width: 30%;
+                    color: $pragraph-color;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 23px;
+                }
+            }
+            .hero-right{
+                position: relative;
+                .hero-ui {
+                    .design-shapes{
+                        position: absolute;
+                        left: 50px;
+                        bottom: -100px;
+                    }
+                }
+                .hero-shapes {
+                    position: absolute;
+                    top: 20px;
+                    left: -15px;
+                    z-index: -1;
+                    svg{
+                        width: 102%;
+                    }
+                }
+            }
+
+            .hero-subscribe{
+                position: relative;
+                .underline-shapes-2{
+                    position: absolute;
+                    left: 0;
+                    bottom: -18px;
+                    svg{
+                        width: 100%;
+                    }
+                }
+            }
+            
+
             
         }
     }
@@ -138,20 +216,24 @@
 
     &-title {
         font-weight: 700;
-        font-size: 34px;
+        font-size: 32px;
         line-height: 38px;
         letter-spacing: -2.2px;
         margin-top: 30px;
+
+        .break-line{
+            display: none;
+        }
 
         &-skills{
             position: relative;
             .underline-shapes{
                 position: absolute;
                 left: 0;
-                bottom: -14px;
+                bottom: -18px;
             }
         }
-
+        
         span {
             &.small-img {
                 display: none;

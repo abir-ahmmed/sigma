@@ -34,7 +34,6 @@
         font-size: 44px;
         line-height: 50px;
         letter-spacing: -1.2px;
-        padding-right: 110px;
     }
     .hero-text {
         font-size: 16px;
@@ -114,6 +113,20 @@
         font-size: 14px;
     }
 
+    .review-slider .swiper-button-next{
+        right: -34px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
+    }
+    .review-slider .swiper-button-prev {
+
+        left: -34px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
+    }
+
     /*Clients Area*/
     .clients-row {
         grid-template-columns: repeat(3, 1fr);
@@ -156,11 +169,12 @@
         line-height: 18px;
     }
 
-    .footer-menu-title{
+    .footer-menu .menu-title{
         
         font-size: 20px;
         line-height: 28px;
         letter-spacing: -0.22px;
+        padding-bottom: 16px;
     }
 
     .footer-area .solutions-subtitle{
@@ -170,7 +184,7 @@
         font-size: 11px;
     }
 
-    .copiright-area{
+    .copiright-area p{
         font-size: 15px;
         line-height: 20px;
     }
@@ -287,10 +301,21 @@
         display: block;
     }
     
-    .hero-title {
+    .hero-area .hero-title {
         font-size: 48px;
         line-height: 60px;
         margin-top: 0;
+        
+    }
+
+ 
+
+    .hero-area-2 .hero-title .break-line{
+        display: block;
+    }
+
+    .hero-title-skills .underline-shapes{
+        bottom: -25px;
     }
 
     
@@ -370,6 +395,24 @@
         font-size: 18px;
         line-height: 28px;
         margin-left: 5px;
+    }
+
+    .review-area .review-slider .slider-item{
+        padding: 45px 29px 29px 29px;
+    }
+
+    
+    .review-slider .swiper-button-next{
+        right: -24px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
+    }
+    .review-slider .swiper-button-prev {
+        left: -24px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
     }
 
 
@@ -463,6 +506,9 @@
 
     .copiright-area p{
         text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
     }
     .footer-social-link{
         display: block;
@@ -474,11 +520,7 @@
         font-size: 12px;
     }
 
-    .copiright-area{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-    }
+
 }
 
 /* Extra large */
@@ -495,6 +537,13 @@
         font-size: 60px;
         line-height: 72px;
     }
+
+    .hero-area-2 .hero-title {
+        font-size: 60px;
+        line-height: 72px;
+        letter-spacing: -1.2px;
+    }
+
     .hero-text {
         font-size: 20px;
     }
@@ -549,10 +598,16 @@
         margin: 60px 0 38px;
     }
     .review-slider .swiper-button-next{
-        right: 14px;
+        right: -7px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
     }
     .review-slider .swiper-button-prev {
-        left: 14px;
+        left: -7px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
     }
 
     .review-area .review-slider{
@@ -577,7 +632,7 @@
         line-height: 26px;
     }
 
-    .footer-menu-title{        
+    .footer-menu .menu-title{        
         font-size: 22px;
         line-height: 32px;
         letter-spacing: -0.22px;

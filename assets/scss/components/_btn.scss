@@ -27,8 +27,9 @@
         font-weight: 700;
 
         &:hover {
-            background: $white;
-            color: $primary;
+            background: $primary;
+            color: $black;
+            opacity: .9;
         }
         &-2{
             &:hover{
