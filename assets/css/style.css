@@ -3265,6 +3265,7 @@ h6 {
   position: absolute;
   left: 210px;
   bottom: -40px;
+  display: none;
 }
 .hero-area-2 .hero-right {
   position: relative;
@@ -3273,12 +3274,13 @@ h6 {
   position: absolute;
   left: 50px;
   bottom: -100px;
+  display: none;
 }
 .hero-area-2 .hero-right .hero-shapes {
   position: absolute;
-  top: 20px;
-  left: -15px;
   z-index: -1;
+  top: -98px;
+  left: -7px;
 }
 .hero-area-2 .hero-right .hero-shapes svg {
   width: 102%;

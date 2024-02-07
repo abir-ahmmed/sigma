@@ -61,11 +61,18 @@
         line-height: 21px;
         margin-left: 14px;
     }
+    .hero-area-2 .hero-left .pricing-shape{
+        display: block;
+    }
     .hero-timeline-box h2 {
         font-size: 100px;
     }
     .hero-text-3 {
         font-size: 20px;
+    }
+
+    .hero-area-2 .hero-right .hero-ui .design-shapes{
+        display: block;
     }
 
     /* Statistics Area */
@@ -568,7 +575,10 @@
         line-height: 23px;
     }
 
-    
+    .hero-area-2 .hero-right .hero-shapes{
+        top: 20px;
+        left: -15px;
+    }
 
     .header-area .navbar-nav {
         gap: 45px;
