@@ -3248,11 +3248,12 @@ h6 {
   color: var(--title-color);
 }
 .hero-area-2 .hero-users .users-text {
-  width: 30%;
   color: var(--pragraph-color);
-  font-size: 16px;
   font-weight: 400;
-  line-height: 23px;
+  width: 52%;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
 }
 .hero-area-2 .hero-right {
   position: relative;
