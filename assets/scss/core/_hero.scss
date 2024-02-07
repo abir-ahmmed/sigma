@@ -74,6 +74,15 @@
                     margin-left: 10px;
                 }
             }
+            .hero-left{
+                position: relative;
+
+                .pricing-shape{
+                    position: absolute;
+                    left: 210px;
+                    bottom: -40px;
+                }
+            }
             .hero-right{
                 position: relative;
                 .hero-ui {

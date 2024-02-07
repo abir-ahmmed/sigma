@@ -2338,6 +2338,9 @@ h6 {
   color: var(--black);
   opacity: 0.9;
 }
+.btn-sigma-2 {
+  padding: 16px 43px;
+}
 .btn-sigma-2:hover {
   background-color: var(--primary);
 }
@@ -3254,6 +3257,14 @@ h6 {
   font-size: 14px;
   line-height: 20px;
   margin-left: 10px;
+}
+.hero-area-2 .hero-left {
+  position: relative;
+}
+.hero-area-2 .hero-left .pricing-shape {
+  position: absolute;
+  left: 210px;
+  bottom: -40px;
 }
 .hero-area-2 .hero-right {
   position: relative;
