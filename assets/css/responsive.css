@@ -137,6 +137,20 @@
         padding: 12px 40px;
     }
 
+        /*Platform Area*/
+
+        .platform-area .learn-title{
+            text-align: start;
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: -0.74px;
+        }
+        .platform-area .learn-subtitle{
+            text-align: start;
+            font-size: 15px;
+            line-height: 120%; 
+        }
+
     /*Review Area*/
     .review-text{
         font-size: 14px;
@@ -354,12 +368,6 @@
     .hero-area-2 .hero-title .break-line{
         display: block;
     }
-    .platform-area .section-title .break-line{
-        display: block;
-    }
-    .platform-area .platform-text .break-line{
-        display: block;
-    }
 
     .hero-area-2 .hero-users .users-text{
         width: 38%;
@@ -496,8 +504,8 @@
 
     /*Platform Area*/
     .platform-area .platform-text{
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 15px;
+        line-height: 24px;
     }
 
     /* Contact Area */
@@ -521,8 +529,22 @@
         grid-template-columns: repeat(6, 1fr);
     }
 
-    /*Product Area*/
-    
+    /*Platform Area*/
+    .platform-area .section-title .break-line{
+        display: block;
+    }
+    .platform-area .platform-text .break-line{
+        display: block;
+    }
+    .platform-area .learn-title{
+        font-size: 37px;
+        line-height: 47px;
+        letter-spacing: -0.74px;
+    }
+    .platform-area .learn-subtitle{
+        font-size: 16px;
+        line-height: 170%; 
+    }
 
     /*Articles area*/
     .articles-subtitle{
@@ -596,6 +618,12 @@
         margin: 0 32.5%;
     }
 
+    /* Header Area */
+    .header-area-3 .collapse.show + .navbar-toggler {
+        top: 100px;
+        right: 100px;
+    }
+    
     /* hero Area */
 
 
@@ -695,9 +723,12 @@
     }
 
     
-    .header-area-3 .collapse.show + .navbar-toggler {
-        top: 100px;
-        right: 100px;
+
+
+    /*Platform Area*/
+    .platform-area .platform-text{
+        font-size: 16px;
+        line-height: 26px;
     }
 
     /* Footer Area */

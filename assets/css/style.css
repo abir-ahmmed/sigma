@@ -4158,17 +4158,33 @@ h6 {
   color: var(--title-color);
   font-weight: 700;
   text-align: center;
-  font-size: 37px;
-  line-height: 47px;
+  font-size: 24px;
+  line-height: 36px;
   letter-spacing: -0.74px;
+  padding-bottom: 8px;
 }
 .platform-area .learn-subtitle {
-  font-family: "Plus Jakarta Sans";
-  font-style: normal;
   color: var(--color-title-50);
-  font-size: 16px;
+  text-align: center;
   font-weight: 400;
-  line-height: 170%; /* 27.2px */
+  font-size: 14px;
+  line-height: 80%;
+}
+.platform-area .illustration-flow .flow-text {
+  color: #141414;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 140%;
+}
+.platform-area .illustration-flow .flow-top .flow-content {
+  display: flex;
+  justify-content: center;
+  padding: 38px 80px;
+}
+.platform-area .illustration-flow .flow-bottom .flow-content {
+  display: flex;
+  justify-content: end;
+  padding-right: 102px;
 }
 
 /*----------------------------------------*/
