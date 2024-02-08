@@ -931,6 +931,9 @@
   .pt-lg-20 {
     padding-top: 20px;
   }
+  .pt-lg-24 {
+    padding-top: 24px;
+  }
   .pt-lg-25 {
     padding-top: 25px;
   }
@@ -951,6 +954,9 @@
   }
   .pt-lg-55 {
     padding-top: 55px;
+  }
+  .pt-lg-56 {
+    padding-top: 56px;
   }
   .pt-lg-59 {
     padding-top: 59px;
@@ -1015,6 +1021,9 @@
   }
   .pb-lg-45 {
     padding-bottom: 45px;
+  }
+  .pb-lg-48 {
+    padding-bottom: 48px;
   }
   .pb-lg-50 {
     padding-bottom: 50px;
@@ -1358,6 +1367,21 @@
         padding-top: 156px;
       }
     }
+    &-150 {
+      padding-top: 70px;
+
+      @include md {
+        padding-top: 90px;
+      }
+
+      @include lg {
+        padding-top: 130px;
+      }
+
+      @include xl {
+        padding-top: 150px;
+      }
+    }
 
     &-140 {
       padding-top: 80px;
@@ -1376,10 +1400,10 @@
     }
 
     &-120 {
-      padding-top: 80px;
+      padding-top: 40px;
 
       @include lg {
-        padding-top: 100px;
+        padding-top: 80px;
       }
 
       @include xl {

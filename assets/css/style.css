@@ -55,6 +55,7 @@ Version      : 1.0
   --piple: #BE04B7;
   --red: #FF005C;
   --red-2: #CC1800;
+  --color-title-50: rgba(3, 7, 30, 0.50);
   --white: #FFFFFF;
   --white-2: #F8FAFF;
   --white-3: #E2E1E1;
@@ -1561,6 +1562,9 @@ h6 {
   .pt-lg-20 {
     padding-top: 20px;
   }
+  .pt-lg-24 {
+    padding-top: 24px;
+  }
   .pt-lg-25 {
     padding-top: 25px;
   }
@@ -1581,6 +1585,9 @@ h6 {
   }
   .pt-lg-55 {
     padding-top: 55px;
+  }
+  .pt-lg-56 {
+    padding-top: 56px;
   }
   .pt-lg-59 {
     padding-top: 59px;
@@ -1644,6 +1651,9 @@ h6 {
   }
   .pb-lg-45 {
     padding-bottom: 45px;
+  }
+  .pb-lg-48 {
+    padding-bottom: 48px;
   }
   .pb-lg-50 {
     padding-bottom: 50px;
@@ -1998,6 +2008,24 @@ h6 {
     padding-top: 156px;
   }
 }
+.section-pt-150 {
+  padding-top: 70px;
+}
+@media screen and (min-width: 768px) {
+  .section-pt-150 {
+    padding-top: 90px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .section-pt-150 {
+    padding-top: 130px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-pt-150 {
+    padding-top: 150px;
+  }
+}
 .section-pt-140 {
   padding-top: 80px;
 }
@@ -2017,11 +2045,11 @@ h6 {
   }
 }
 .section-pt-120 {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 @media screen and (min-width: 992px) {
   .section-pt-120 {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2953,7 +2981,7 @@ h6 {
   position: relative;
   margin: 4px 0;
   display: block;
-  background: var(--white);
+  background: var(--black);
   border-radius: 3px;
   transition: 0.2s ease-in-out;
 }
@@ -2975,7 +3003,7 @@ h6 {
 }
 .header-area-2 .menu_toggle .hamburger-cross span {
   display: block;
-  background: var(--white);
+  background: var(--black);
   border-radius: 3px;
   transition: 0.2s ease-in-out;
 }
@@ -3222,6 +3250,17 @@ h6 {
 .hero-area-2 h1, .hero-area-2 h2, .hero-area-2 h3, .hero-area-2 h4, .hero-area-2 h5, .hero-area-2 h6 {
   color: var(--title-color);
 }
+.hero-area-2 .hero-linear {
+  background: linear-gradient(110deg, rgba(255, 118, 6, 0.04) 14.55%, rgba(255, 205, 63, 0.2) 76.45%);
+  position: absolute;
+  width: 852px;
+  height: 852px;
+  left: -350px;
+  bottom: -253px;
+  transform: rotate(120deg);
+  opacity: 0.5;
+  filter: blur(100px);
+}
 .hero-area-2 .hero-users .user-items {
   position: relative;
 }
@@ -3260,6 +3299,7 @@ h6 {
 }
 .hero-area-2 .hero-left {
   position: relative;
+  padding-top: 60px;
 }
 .hero-area-2 .hero-left .pricing-shape {
   position: absolute;
@@ -3272,15 +3312,18 @@ h6 {
 }
 .hero-area-2 .hero-right .hero-ui .design-shapes {
   position: absolute;
-  left: 50px;
-  bottom: -100px;
+  left: 60px;
+  bottom: -50px;
   display: none;
+}
+.hero-area-2 .hero-right .hero-ui .design-shapes svg {
+  max-width: 183px;
 }
 .hero-area-2 .hero-right .hero-shapes {
   position: absolute;
   z-index: -1;
   top: -98px;
-  left: -7px;
+  left: -8px;
 }
 .hero-area-2 .hero-right .hero-shapes svg {
   width: 102%;
@@ -3302,6 +3345,7 @@ h6 {
 .hero-img {
   border-radius: 50%;
   width: 100%;
+  max-width: 609px;
 }
 .hero-ui {
   position: absolute;
@@ -3397,6 +3441,9 @@ h6 {
 .hero-title .break-line {
   display: none;
 }
+.hero-title .break-line {
+  display: none;
+}
 .hero-title-skills {
   position: relative;
 }
@@ -3474,6 +3521,9 @@ h6 {
   line-height: 25px;
   padding-top: 20px;
   padding-bottom: 30px;
+}
+.hero-text .break-line {
+  display: none;
 }
 .hero-users {
   padding-top: 32px;
@@ -4088,6 +4138,37 @@ h6 {
   max-width: 33px;
   width: 100%;
   height: 33px;
+}
+
+/*----------------------------------------*/
+/*  Platform Area
+/*----------------------------------------*/
+.platform-area .platform-text {
+  color: var(--pragraph-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+.platform-area .break-line {
+  display: none;
+}
+.platform-area .learn-title {
+  color: var(--title-color);
+  font-weight: 700;
+  text-align: center;
+  font-size: 37px;
+  line-height: 47px;
+  letter-spacing: -0.74px;
+}
+.platform-area .learn-subtitle {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  color: var(--color-title-50);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
 }
 
 /*----------------------------------------*/

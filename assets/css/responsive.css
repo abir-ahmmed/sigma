@@ -1,9 +1,16 @@
 /* Small */
 @media screen and (min-width: 576px) {
+    .hero-area-2 .hero-right .hero-shapes{
+        top: -46px;
+        left: -8px;
+    }
+
     .footer-area .solutions-subtitle{
         top: -10px;
         right: 115px;
     }
+
+
 }
 
 /* Medium */
@@ -61,8 +68,16 @@
         line-height: 21px;
         margin-left: 14px;
     }
+    .hero-area-2 .hero-left{
+        padding-top: 90px;
+    }
     .hero-area-2 .hero-left .pricing-shape{
         display: block;
+    }
+
+    .hero-area-2 .hero-right .hero-shapes{
+        top: 53px;
+        left: -19px;
     }
     .hero-timeline-box h2 {
         font-size: 100px;
@@ -304,6 +319,9 @@
     .hero-area {
         padding: 252px 0 120px;
     }
+    .hero-area-2 {
+        padding: 150px 0 81px;
+    }
     .hero-area-btn{
         justify-content: left;
     }
@@ -324,7 +342,22 @@
 
  
 
+    .break-line{
+        display: block;
+    }
+    .hero-title .break-line{
+        display: block;
+    }
+    .hero-text .break-line{
+        display: block;
+    }
     .hero-area-2 .hero-title .break-line{
+        display: block;
+    }
+    .platform-area .section-title .break-line{
+        display: block;
+    }
+    .platform-area .platform-text .break-line{
         display: block;
     }
 
@@ -339,6 +372,10 @@
         bottom: -25px;
     }
 
+    .hero-area-2 .hero-right .hero-shapes{
+        top: -56px;
+        left: -12px;
+    }
     
 
     .hero-content h4 {
@@ -356,6 +393,11 @@
     
     .hero-area .ui-design {
         visibility: visible;
+    }
+
+    .hero-area-2 .hero-right .hero-ui .design-shapes{
+        left: 26px;
+        bottom: 30px;
     }
 
 
@@ -452,8 +494,11 @@
     /* Categories Area */
 
 
-    /*Process Area*/
-    
+    /*Platform Area*/
+    .platform-area .platform-text{
+        font-size: 16px;
+        line-height: 26px;
+    }
 
     /* Contact Area */
 
@@ -587,6 +632,11 @@
     .hero-area .hero-right .hero-ui{
         left: -110px;
         bottom: 110px;
+    }
+
+    .hero-area-2 .hero-right .hero-ui .design-shapes{
+        left: 64px;
+        bottom: -115px;
     }
     /* Categories Area */
     .categories-item {

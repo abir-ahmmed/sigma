@@ -1,0 +1,38 @@
+/*----------------------------------------*/
+/*  Platform Area
+/*----------------------------------------*/
+
+.platform{
+    &-area{
+        .platform-text{
+            color: $pragraph-color;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            padding-top: 16px;
+            padding-bottom: 24px;
+        }
+        .break-line{
+            display: none;
+        }
+
+        .learn-title{
+            color: $title-color;
+            font-weight: 700;
+            text-align: center;
+            font-size: 37px;
+            line-height: 47px;
+            letter-spacing: -0.74px;
+        }
+
+        .learn-subtitle{
+            font-family: "Plus Jakarta Sans";
+            font-style: normal;
+            color: $color-title-50;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 170%; /* 27.2px */
+        }
+
+    }
+}
