@@ -4170,21 +4170,74 @@ h6 {
   font-size: 14px;
   line-height: 80%;
 }
+.platform-area .illustration-flow {
+  position: relative;
+}
+.platform-area .illustration-flow .illustration-icon {
+  position: absolute;
+  top: 112px;
+  left: 202px;
+}
+.platform-area .illustration-flow .flow-icon {
+  border-radius: 5px;
+  padding: 3px 3px 6px;
+  max-width: 30px;
+  width: 100%;
+  height: 30px;
+  transform: rotate(45deg);
+}
+.platform-area .illustration-flow .flow-icon-1 {
+  position: absolute;
+  margin-top: 40px;
+  background-color: var(--primary);
+}
+.platform-area .illustration-flow .flow-icon-2 {
+  position: absolute;
+  background-color: var(--blue);
+  right: 170px;
+}
+.platform-area .illustration-flow .flow-icon svg {
+  transform: rotate(-45deg);
+}
+.platform-area .illustration-flow .flow-img {
+  position: relative;
+}
+.platform-area .illustration-flow .flow-img svg {
+  position: absolute;
+  z-index: -1;
+}
+.platform-area .illustration-flow .flow-img img {
+  padding: 16px;
+}
 .platform-area .illustration-flow .flow-text {
   color: #141414;
   font-size: 10px;
   font-weight: 500;
   line-height: 140%;
 }
+.platform-area .illustration-flow .flow-top {
+  position: relative;
+}
 .platform-area .illustration-flow .flow-top .flow-content {
   display: flex;
   justify-content: center;
-  padding: 38px 80px;
+  margin-left: 105px;
+  margin-top: 58px;
+  z-index: -2;
 }
 .platform-area .illustration-flow .flow-bottom .flow-content {
   display: flex;
   justify-content: end;
   padding-right: 102px;
+}
+.platform-area .illustration-flow .flow-bottom .flow-img {
+  display: flex;
+  left: 85px;
+}
+.platform-area .illustration-flow .flow-bottom .flow-img .big-icon {
+  position: absolute;
+  bottom: 96px;
+  left: 150px;
 }
 
 /*----------------------------------------*/
