@@ -7,7 +7,10 @@
         overflow: hidden;
     }
     &-item {
-        margin-bottom: 25px;        
+        margin-bottom: 25px;  
+        .articles-subtitle-2 {
+            color: $text-primary-700;
+        }     
     }
 
     &-img img{
@@ -22,6 +25,7 @@
         line-height: 16px;
         margin-top: 20px;
         margin-bottom: 5px;
+        
     }
 
     &-title{

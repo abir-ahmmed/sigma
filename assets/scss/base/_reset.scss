@@ -157,7 +157,12 @@ h6 {
   line-height: 22px;
 }
 
-
+.md-block{
+  display: none;
+}
+.lg-block{
+  display: none;
+}
 
 .bg {
   &-black {
@@ -281,7 +286,7 @@ h6 {
     color: #027A48;
   }
   &-primary-700{
-    color: #6941C6;
+    color: $text-primary-700;
   }
   &-gray-blue-700{
     color: #363F72;

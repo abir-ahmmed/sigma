@@ -204,3 +204,8 @@ $('.counting').each(function() {
   
 
 });
+
+function myAccordion() {
+  var element = document.getElementById("accordionBefore");
+  element.classList.add("accordionAfter");
+}

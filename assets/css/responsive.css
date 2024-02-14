@@ -26,6 +26,10 @@
     .section-text{
         margin: 0 21%;
     }
+    
+    .md-block{
+        display: block;
+    }
 
     /* hero Area */
 
@@ -70,9 +74,6 @@
     }
     .hero-area-2 .hero-left{
         padding-top: 90px;
-    }
-    .hero-area-2 .hero-left .pricing-shape{
-        display: block;
     }
 
     .hero-area-2 .hero-right .hero-shapes{
@@ -253,6 +254,10 @@
     }
     .section-item-title-2 {
         font-size: 36px;
+    }
+
+    .lg-block{
+        display: block;
     }
 
     
@@ -598,9 +603,7 @@
         font-weight: 400;
         line-height: 24px;
     }
-    .footer-social-link{
-        display: block;
-    }
+
     .footer-area .solutions-subtitle{
         top: -8px;
         right: 55px;
@@ -613,7 +616,10 @@
 
 /* Extra large */
 @media screen and (min-width: 1200px) {
-
+    .container-sm{
+        max-width: 1120px;
+        margin: 0 auto;
+    }
     .section-text{
         margin: 0 32.5%;
     }
@@ -730,6 +736,10 @@
         font-size: 16px;
         line-height: 26px;
     }
+    .platform-area .illustration-flow{
+        padding-top: 0;
+    }
+    
 
     /* Footer Area */
     .footer-title{
@@ -762,6 +772,10 @@
 
 /* Extra extra large */
 @media screen and (min-width: 1400px) {
+    /* .container-sm{
+        max-width: 1120px;
+        margin: 0 auto;
+    } */
     .container-md{
         max-width: 1348px;
         margin: 0 auto;
