@@ -3,6 +3,35 @@
 /*----------------------------------------*/
 .courses {
     &-area {
+        &-2{
+            .nav-pills .nav-link{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                color: $color-title-50;
+                display: flex;
+                padding: 10px 14px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+            }
+            .nav-pills .nav-link .badge-number{
+                display: flex;
+                padding: 2px 10px;
+                align-items: center;
+                border-radius: 16px;
+                background: $white-7;
+
+            }
+            .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+                background-color: $secondary-blue;
+                color: #FFFEF9;
+                .badge-number{
+                    background-color: $primary;
+                    color: $title-color;
+                }
+            }
+        }
         overflow: hidden;
         a.btn-blue{
             background: rgba(0, 163, 255, 0.15);
