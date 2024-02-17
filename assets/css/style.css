@@ -22,7 +22,7 @@ Version      : 1.0
 /*----------------------------------------*/
 /*  Theme default CSS
 /*----------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 :root {
   --body-font-family: var(--font-plus-jakarta);
   --body-font-weight: 400;
@@ -31,7 +31,9 @@ Version      : 1.0
   --body-line-height: 1.72;
   --body-line-height-2: 1.6;
   --body-color: var(--black);
+  --body-3-font-family: var(--font-inter);
   --font-plus-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
   --bg-1: #070052;
   --bg-2: #6941C6;
   --bg-3: #FFFFFF;
@@ -160,6 +162,14 @@ body {
   color: var(--title-color);
 }
 .body-2 p {
+  color: var(--pragraph-color);
+}
+
+.body-3 h1, .body-3 h2, .body-3 h3, .body-3 h4, .body-3 h5, .body-3 h6 {
+  color: var(--title-color);
+  font-family: var(--body-3-font-family);
+}
+.body-3 p {
   color: var(--pragraph-color);
 }
 
@@ -354,6 +364,9 @@ h6 {
   color: rgba(3, 7, 30, 0.5);
 }
 
+.text-primary {
+  color: var(--primary);
+}
 .text-gray-2 {
   color: var(--gray-2);
 }
@@ -975,6 +988,10 @@ h6 {
   padding-top: 215px;
 }
 
+.pb-8 {
+  padding-bottom: 8px;
+}
+
 .pb-10 {
   padding-bottom: 10px;
 }
@@ -1306,6 +1323,9 @@ h6 {
   .mt-lg-45 {
     margin-top: 45px;
   }
+  .mt-lg-48 {
+    margin-top: 48px;
+  }
   .mt-lg-50 {
     margin-top: 50px;
   }
@@ -1579,6 +1599,9 @@ h6 {
   .pt-lg-30 {
     padding-top: 30px;
   }
+  .pt-lg-34 {
+    padding-top: 34px;
+  }
   .pt-lg-35 {
     padding-top: 35px;
   }
@@ -1587,6 +1610,9 @@ h6 {
   }
   .pt-lg-45 {
     padding-top: 45px;
+  }
+  .pt-lg-48 {
+    padding-top: 48px;
   }
   .pt-lg-50 {
     padding-top: 50px;
@@ -1623,6 +1649,9 @@ h6 {
   }
   .pt-lg-95 {
     padding-top: 95px;
+  }
+  .pt-lg-98 {
+    padding-top: 98px;
   }
   .pt-lg-100 {
     padding-top: 100px;
@@ -1836,6 +1865,11 @@ h6 {
   }
   .pl-lg-100 {
     padding-left: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .pl-xl-64 {
+    padding-left: 64px;
   }
 }
 .section-mt-32 {
@@ -3282,6 +3316,9 @@ h6 {
 .hero-area h1 {
   color: var(--white);
 }
+.hero-area h4.hero-subtitle-3 {
+  color: var(--primary);
+}
 .hero-area-btn {
   justify-content: center;
 }
@@ -3379,6 +3416,13 @@ h6 {
 }
 .hero-area-2 .hero-subscribe .underline-shapes-2 svg {
   width: 100%;
+}
+.hero-area-3 .hero-title {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+.hero-area-3 h4, .hero-area-3 h1, .hero-area-3 p, .hero-area-3 a {
+  color: var(--white);
 }
 .hero-right {
   position: relative;
@@ -3497,14 +3541,11 @@ h6 {
   display: none;
 }
 .hero-title-2 {
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 0.9;
-  letter-spacing: 0.02em;
-}
-.hero-title-2 span {
-  color: transparent;
-  -webkit-text-stroke: 1.5px var(--white);
+  font-size: 47px;
+  line-height: 57px;
+  letter-spacing: -0.94px;
+  padding-top: 16px;
+  padding-bottom: 24px;
 }
 .hero-title-3 {
   font-size: 40px;
@@ -3555,6 +3596,13 @@ h6 {
   line-height: 1.4;
   margin-top: 20px;
 }
+.hero-subtitle-3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.18px;
+}
 .hero-text {
   font-weight: 600;
   font-size: 15px;
@@ -3565,6 +3613,12 @@ h6 {
 }
 .hero-text .break-line {
   display: none;
+}
+.hero-text-2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 0 auto;
 }
 .hero-users {
   padding-top: 32px;
@@ -3679,6 +3733,10 @@ h6 {
 .hero-social-links ul li a:hover {
   color: var(--primary);
 }
+.hero-search {
+  max-width: 456px;
+  margin: 0 auto;
+}
 
 /*----------------------------------------*/
 /*  Integrations Area
@@ -3752,6 +3810,9 @@ h6 {
 /*----------------------------------------*/
 .courses-area {
   overflow: hidden;
+}
+.courses-area-2 .nav-pills {
+  padding-bottom: 20px;
 }
 .courses-area-2 .nav-pills .nav-link {
   font-size: 16px;

@@ -4,6 +4,9 @@
 .courses {
     &-area {
         &-2{
+            .nav-pills{
+                padding-bottom: 20px;
+            }
             .nav-pills .nav-link{
                 font-size: 16px;
                 font-weight: 600;

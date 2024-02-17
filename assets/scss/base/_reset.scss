@@ -1,7 +1,7 @@
 /*----------------------------------------*/
 /*  01. Theme default CSS
 /*----------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 /* Box sizing rules */
 *,
@@ -52,6 +52,18 @@ body {
   p{
     color: $pragraph-color;
   }
+}
+
+.body-3{
+  h1,h2,h3,h4,h5,h6{
+    color: $title-color;
+    font-family: $body-3-font-family;
+  }
+  
+  p{
+    color: $pragraph-color;
+  }
+
 }
 
 
@@ -262,6 +274,9 @@ h6 {
 
 
 .text{
+  &-primary{
+    color: $primary;
+  }
   &-gray{
     &-2{
       color: $gray-2;
