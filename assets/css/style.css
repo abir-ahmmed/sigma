@@ -4746,6 +4746,9 @@ FAQs CSS
 .presentations-area .presentations-slider .presentations {
   overflow: hidden;
 }
+.presentations-area .presentations-slider .presentations .pagination {
+  border-top: 1px solid #EAECF0;
+}
 .presentations-area .presentations-slider .presentations .pagination .page-number.number-pagination .swiper-pagination-bullet {
   max-width: 4px;
   height: 4px;
