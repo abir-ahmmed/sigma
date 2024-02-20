@@ -56,7 +56,7 @@ body {
 
 .body-3{
   h1,h2,h3,h4,h5,h6{
-    color: $title-color;
+    color: $gray-8;
     font-family: $body-3-font-family;
   }
   
@@ -292,6 +292,9 @@ h6 {
     &-3{
       color: $gray-3;
     }
+    &-8{
+      color: $gray-8;
+    }
 
     
   }
@@ -335,7 +338,11 @@ h6 {
   &-title {
     font-size: 28px;
     line-height: 1.3;
-
+    &-{
+      font-size: 28px;
+      line-height: 1.3;
+      
+    }
   }
   
   &-text{

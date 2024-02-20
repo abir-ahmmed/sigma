@@ -8,26 +8,77 @@
       position: relative;
       .presentations{
         overflow: hidden;
+        .pagination{
+
+          .page-number {
+            cursor: pointer;
+            background-color: white;
+            color: #999;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .4s ease;
+        }
+        .active {
+            font-size: 1.3em;
+            height: 40px;
+            width: 40px;
+            background-color: #0057b3;
+            color: white;
+        }
+        button {
+            width: 120px;
+            padding: 8px 16px;
+            background-color: #ffffff00;
+            color: #0057b3;
+            border: none;
+            cursor: pointer;
+            margin: 0 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }        
+        button:hover {
+            color: #0056b3;
+        }
+        button:disabled {
+            background-color: #ffffff00;
+            color: #ccc;
+            cursor: not-allowed;
+        }
+        .pages{
+          position: relative;
+
+          .swiper-pagination{
+            position: absolute;
+          }
+        }
         
+        #prevPage {
+            margin-right: 20px;
+        }
+        
+        #nextPage {
+            margin-left: 20px;
+        }
+        .arrow {
+            font-size: 20px;
+        }
+        
+        .nav-text {
+            font-size: 0.7em;
+            letter-spacing: 0.3em;
+        }
+        
+        }
       }
 
-      .swiper-button-next{
-        right: -11px;
-        bottom: 0;
-        svg{
-          max-width: 20px;
-          width: 100%;
-        }
-    }
-    .swiper-button-prev{
-        left: -11px;
-        bottom: 0;
-        svg{
-          max-width: 20px;
-          width: 100%;
-        }
-
-    }
+    
+    
+    
     }
     .btn-articles{
       font-weight: 500;
