@@ -180,24 +180,19 @@
       const presentations = new Swiper('.presentations', {
         slidesPerView: 1,
         spaceBetween: 10,
-        navigation: {
-          nextEl: ".swiper-button-next-2",
-          prevEl: ".swiper-button-prev-2",
-        },
+         navigation: {
+           nextEl: ".swiper-button-next-2",
+           prevEl: ".swiper-button-prev-2",
+         },
         pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        // renderBullet: function (index, className) {
-        //   return '<span class="' + className + '">' + (index + 1) + "</span>";
-        // },
-      },
+          el: ".swiper-pagination",
+          clickable: true,
+          // renderBullet: function (index, className) {
+          //   return '<span class="' + className + '">' + (index + 1) + "</span>";
+          // },
+        },
         loop:true,
         spaceBetween: 10,
-        //  centeredSlides: true,
-          autoplay:{
-            delay:2500,
-            disableOnInteraction:false,
-          },
         breakpoints: {
           640: {
             slidesPerView: 1,
@@ -245,6 +240,71 @@ $('.counting').each(function() {
   
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const pages = document.querySelectorAll(".swiper-slide");
+  const pageNumbers = document.querySelectorAll(".page-number");
+  const prevButton = document.getElementById("prevPage");
+  const nextButton = document.getElementById("nextPage");
+  let currentPage = 0;
+
+  function showPage(pageNumber) {
+      pages.forEach((page, index) => {
+          if (index === pageNumber) {
+              page.style.display = "block";
+          } else {
+              page.style.display = "none";
+          }
+      });
+  }
+
+  function updateButtons() {
+      prevButton.disabled = currentPage === 0;
+      nextButton.disabled = currentPage === pages.length - 1;
+  }
+
+  function setActive() {
+      pageNumbers.forEach((page, index) => {
+          if(currentPage === index) {
+              page.classList.add("active");
+          } else {
+              page.classList.remove("active");
+          }
+      });
+  }
+
+  pageNumbers.forEach((page, index) => {
+      page.addEventListener("click", function () {
+          showPage(index);
+          currentPage = index;
+          updateButtons();
+          setActive();
+      });
+  });
+
+  prevButton.addEventListener("click", function () {
+      if (currentPage > 0) {
+          currentPage--;
+          showPage(currentPage);
+          updateButtons();
+          setActive();
+      }
+  });
+
+  nextButton.addEventListener("click", function () {
+      if (currentPage < pages.length - 1) {
+          currentPage++;
+          showPage(currentPage);
+          updateButtons();
+          setActive();
+      }
+  });
+
+  showPage(currentPage);
+  updateButtons();
+});
+
+
 
 
 

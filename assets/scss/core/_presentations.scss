@@ -10,11 +10,21 @@
         overflow: hidden;
         .pagination{
 
+          .page-number.number-pagination .swiper-pagination-bullet{
+            max-width: 4px;
+            height: 4px;
+            margin: 2px;
+          }
+
+          .page-number.number-pagination{
+            padding: 0 30px;
+          }
+
           .page-number {
             cursor: pointer;
             background-color: white;
             color: #999;
-            border-radius: 50%;
+            border-radius: 8px;
             height: 30px;
             width: 30px;
             display: flex;
