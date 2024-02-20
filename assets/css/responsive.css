@@ -41,6 +41,10 @@
         line-height: 50px;
         letter-spacing: -1.2px;
     }
+    .hero-title-2 {
+        font-size: 47px;
+        line-height: 57px;
+    }
     .hero-area-2 .hero-title {
         font-size: 44px;
         line-height: 50px;
@@ -57,6 +61,10 @@
 
     .hero-subtitle-2 {
         margin-top: 40px;
+    }
+    .hero-subtitle-3 {
+        font-size: 18px;
+        line-height: 28px;
     }
 
     .hero-title-skills .underline-shapes{
@@ -91,6 +99,19 @@
         display: block;
     }
 
+    .form-group input {
+        padding: 16px 0 18px 22px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .form-group .search-icon {
+        position: absolute;
+        top: 5px;
+        right: 4px;
+        padding: 11px 12px 12px 12px;
+        border-radius: 50%;
+
+    }
     /* Statistics Area */
     .statistics-text{
         margin-bottom: 0;
@@ -164,6 +185,19 @@
         height: 56px;
     }
     .review-slider .swiper-button-prev {
+
+        left: -34px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
+    }
+    .presentations-slider .swiper-button-next{
+        right: -34px;
+        max-width: 56px;
+        width: 100%;
+        height: 56px;
+    }
+    .presentations-slider .swiper-button-prev {
 
         left: -34px;
         max-width: 56px;
@@ -312,6 +346,9 @@
     }
 
 
+    .header-area .nav-separator{
+        display: block;
+    }
     .header-area .right-nav {
         margin-left: 40px;
         margin-top: 0;
@@ -335,12 +372,12 @@
     }
 
     /* hero Area */
-    .hero-area {
+    /* .hero-area {
         padding: 252px 0 120px;
     }
     .hero-area-2 {
         padding: 150px 0 81px;
-    }
+    } */
     .hero-area-btn{
         justify-content: left;
     }

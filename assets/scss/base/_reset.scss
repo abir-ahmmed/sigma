@@ -60,7 +60,8 @@ body {
     font-family: $body-3-font-family;
   }
   
-  p{
+  p,a{
+    font-family: $body-3-font-family;
     color: $pragraph-color;
   }
 
@@ -223,9 +224,16 @@ h6 {
   &-ros-50{
     background-color: #FFF1F3;
   }
+  &-orange-dark-50{
+    background-color: #FFF4ED;
+  }
   &-success-50{
     background-color: #ECFDF3;
   }
+  &-indigo-50{
+    background-color: #EEF4FF;
+  }
+  
 
   &-primary-50{
     background-color: #F9F5FF;
@@ -293,7 +301,12 @@ h6 {
   &-ros{
     color: #C01048;
   }
-
+  &-orange-700{
+    color: #B93815;
+  }
+  &-indigo-700{
+    color: #EEF4FF;
+  }
   &-blue{
     color: $blue-light;
   }

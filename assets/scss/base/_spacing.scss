@@ -1020,6 +1020,9 @@
   .pb-lg-20 {
     padding-bottom: 20px;
   }
+  .pb-lg-24 {
+    padding-bottom: 24px;
+  }
   .pb-lg-25 {
     padding-bottom: 25px;
   }
@@ -1610,6 +1613,17 @@
         padding-bottom: 112px;
       }
     }
+    &-110 {
+      padding-bottom: 60px;
+
+      @include lg {
+        padding-bottom: 80px;
+      }
+
+      @include xl {
+        padding-bottom: 110px;
+      }
+    }
     &-100 {
       padding-bottom: 60px;
 
@@ -1630,7 +1644,7 @@
       }
 
       @include xl {
-        padding-bottom: 80px;
+        padding-bottom: 81px;
       }
     }
     &-80 {

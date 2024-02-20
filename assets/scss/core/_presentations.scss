@@ -1,0 +1,38 @@
+/*----------------------------------------*/
+/*  Process Area
+/*----------------------------------------*/
+.presentations {
+  &-area {
+    font-family:$body-3-font-family;
+    .presentations-slider{
+      position: relative;
+      .presentations{
+        overflow: hidden;
+        
+      }
+
+      .swiper-button-next{
+        right: -11px;
+        bottom: 0;
+        svg{
+          max-width: 20px;
+          width: 100%;
+        }
+    }
+    .swiper-button-prev{
+        left: -11px;
+        bottom: 0;
+        svg{
+          max-width: 20px;
+          width: 100%;
+        }
+
+    }
+    }
+    .btn-articles{
+      font-weight: 500;
+
+    }
+  }
+
+}

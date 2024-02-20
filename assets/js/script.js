@@ -111,38 +111,9 @@
         });
       }
 
-      // Review Silder
-      if ($('.reviewSlider').length) {
-        const reviewSlider = new Swiper('.reviewSlider', {
-          direction: "vertical",
-          loop: true,
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      }
-
       // Portfioli Slider
-      if ($('.reviewSlider').length) {
-        const portfolioSlider = new Swiper('.portfolioSlider', {
-          slidesPerView: 1,
-          loop: true,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-          },
-          breakpoints: {
-            640: {
-              slidesPerView: 2,
-            },
-            1024: {
-              slidesPerView: 3,
-            },
-          },
-        });
-      }
 
+      // Review Silder
       const swiper = new Swiper('.swiper', {
         slidesPerView: 1,
         spaceBetween: 10,
@@ -168,6 +139,76 @@
           },
           1200: {
             slidesPerView: 4,
+            spaceBetween: 31,
+          },
+        },
+
+      });
+      // Review Silder
+      const reviewSwiper = new Swiper('.review-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        loop:true,
+        spaceBetween: 10,
+        //  centeredSlides: true,
+         autoplay:{
+           delay:2500,
+           disableOnInteraction:false,
+         },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 31,
+          },
+        },
+
+      });
+
+      // blog Slider
+      const presentations = new Swiper('.presentations', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next-2",
+          prevEl: ".swiper-button-prev-2",
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+        loop:true,
+        spaceBetween: 10,
+        //  centeredSlides: true,
+          autoplay:{
+            delay:2500,
+            disableOnInteraction:false,
+          },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 1,
             spaceBetween: 31,
           },
         },
@@ -205,7 +246,6 @@ $('.counting').each(function() {
 
 });
 
-function myAccordion() {
-  var element = document.getElementById("accordionBefore");
-  element.classList.add("accordionAfter");
-}
+
+
+

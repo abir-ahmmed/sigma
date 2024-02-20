@@ -93,7 +93,7 @@
       > .nav-link {
         color: $white;
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 1.87;
         padding: 0;
 
@@ -355,6 +355,10 @@
     }
   }
 
+  .nav-separator{
+    display: none;
+  }
+
   &-3{
     background-color: $bg-3;
 
@@ -454,7 +458,7 @@
       > .nav-link {
         color: $gray-2;
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 1.87;
         padding: 0;
 
@@ -493,7 +497,7 @@
               padding: 0;
               white-space: nowrap;
               font-size: 14px;
-              font-weight: 500;
+              font-weight: 700;
               color: $gray-2;
               transition: color 0.2s linear;
               position: relative;
@@ -698,6 +702,8 @@
         } 
     }
   }
+
+
 }
 
 
