@@ -4818,6 +4818,10 @@ FAQs CSS
 .presentations-area .btn-articles {
   font-weight: 500;
 }
+.presentations-area .btn-articles:hover {
+  color: var(--white);
+  background-color: #6941C6;
+}
 
 /*----------------------------------------*/
 /*  Contact Area

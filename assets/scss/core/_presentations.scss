@@ -92,6 +92,10 @@
     }
     .btn-articles{
       font-weight: 500;
+      &:hover{
+        color: $white;
+        background-color: #6941C6;
+      }
 
     }
   }
