@@ -93,7 +93,7 @@ Version      : 1.0
   --black-14: #3F4049;
   --black-15: #2D293E;
   --black-16: #121212;
-  --black-17: #151515;
+  --black-17: #161A1D;
   --black-18: #060606;
   --black-19: #03071e;
   --black-50: #ebebeb;
@@ -378,6 +378,9 @@ h6 {
 .text-primary {
   color: var(--primary);
 }
+.text-secondary-700 {
+  color: var(--secondary);
+}
 .text-gray-2 {
   color: var(--gray-2);
 }
@@ -586,6 +589,10 @@ h6 {
 
 .mb-10 {
   margin-bottom: 10px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
 }
 
 .mb-15 {
@@ -868,6 +875,10 @@ h6 {
   padding: 30px;
 }
 
+.pt-8 {
+  padding-top: 8px;
+}
+
 .pt-10 {
   padding-top: 10px;
 }
@@ -1018,6 +1029,10 @@ h6 {
 
 .pb-10 {
   padding-bottom: 10px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
 }
 
 .pb-15 {
@@ -1258,6 +1273,10 @@ h6 {
 
 .pl-15 {
   padding-left: 15px;
+}
+
+.pl-16 {
+  padding-left: 16px;
 }
 
 .pl-20 {
@@ -1640,6 +1659,9 @@ h6 {
   }
   .pt-lg-50 {
     padding-top: 50px;
+  }
+  .pt-lg-52 {
+    padding-top: 52px;
   }
   .pt-lg-55 {
     padding-top: 55px;
@@ -3498,6 +3520,34 @@ h6 {
   line-height: 24px;
   font-weight: 400;
 }
+.hero-area .hero-blog .articles-btn a {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+}
+.hero-area .hero-blog .hero-text {
+  color: var(--pragraph-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.hero-area .hero-blog .hero-client .client-title {
+  color: var(--black-17);
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.hero-area .hero-blog .hero-client .client-text {
+  color: var(--gray-6);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.hero-area .hero-blog .break-line {
+  display: none;
+}
 .hero-right {
   position: relative;
 }
@@ -3595,7 +3645,6 @@ h6 {
   font-size: 32px;
   line-height: 38px;
   letter-spacing: -2.2px;
-  margin-top: 30px;
 }
 .hero-title .break-line {
   display: none;
@@ -3616,8 +3665,6 @@ h6 {
 }
 .hero-title-2 {
   letter-spacing: -0.94px;
-  padding-top: 8px;
-  padding-bottom: 12px;
   font-size: 36px;
   line-height: 44px;
 }
@@ -3681,8 +3728,6 @@ h6 {
   font-size: 15px;
   text-align: justify;
   line-height: 25px;
-  padding-top: 20px;
-  padding-bottom: 30px;
 }
 .hero-text .break-line {
   display: none;

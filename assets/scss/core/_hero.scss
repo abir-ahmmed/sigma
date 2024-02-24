@@ -184,6 +184,47 @@
                 }
             }
         }
+
+        .hero-blog{
+            .articles-btn
+                {
+                    a{
+                        font-family: Inter;
+                        font-weight: 500;
+                        font-size: 10px;
+                        line-height: 12px;
+                    }
+
+                }
+
+            .hero-text{
+                color: $pragraph-color;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+            }
+
+            .hero-client{
+                .client-title{
+                    color: $black-17;
+                    font-weight: 700;
+                    letter-spacing: -0.18px;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                .client-text{
+                    color: $gray-6;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+
+            .break-line{
+                display: none;
+            }
+        }
     }
 
 
@@ -296,7 +337,6 @@
         font-size: 32px;
         line-height: 38px;
         letter-spacing: -2.2px;
-        margin-top: 30px;
         .break-line{
             display: none;
         }
@@ -322,8 +362,6 @@
 
         &-2 {
             letter-spacing: -0.94px;
-            padding-top: 8px;
-            padding-bottom: 12px;
             font-size: 36px;
             line-height: 44px;
         }
@@ -391,9 +429,7 @@
         font-weight: 600;
         font-size: 15px;
         text-align: justify;
-        line-height: 25px;
-        padding-top: 20px;
-        padding-bottom: 30px;   
+        line-height: 25px;  
         .break-line{
             display: none;
         } 

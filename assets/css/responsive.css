@@ -99,6 +99,11 @@
         display: block;
     }
 
+    .hero-area .hero-blog .articles-btn a{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .form-group input {
         padding: 16px 0 18px 22px;
         font-size: 16px;
@@ -675,6 +680,10 @@
 
 /* Extra large */
 @media screen and (min-width: 1200px) {
+    .container-xs{
+        max-width: 960px;
+        margin: 0 auto;
+    }
     .container-sm{
         max-width: 1120px;
         margin: 0 auto;
