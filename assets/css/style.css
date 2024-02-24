@@ -371,6 +371,10 @@ h6 {
   color: rgba(3, 7, 30, 0.5);
 }
 
+.fw-700 {
+  font-weight: 700;
+}
+
 .text-primary {
   color: var(--primary);
 }
@@ -4749,6 +4753,9 @@ FAQs CSS
 .presentations-area .presentations-slider .presentations .pagination {
   border-top: 1px solid #EAECF0;
 }
+.presentations-area .presentations-slider .presentations .pagination button, .presentations-area .presentations-slider .presentations .pagination .pages {
+  color: var(--gray-6);
+}
 .presentations-area .presentations-slider .presentations .pagination .page-number.number-pagination .swiper-pagination-bullet {
   max-width: 4px;
   height: 4px;
@@ -4773,17 +4780,14 @@ FAQs CSS
   font-size: 1.3em;
   height: 40px;
   width: 40px;
-  background-color: #0057b3;
-  color: white;
+  background-color: var(--white-7);
 }
 .presentations-area .presentations-slider .presentations .pagination button {
   width: 120px;
-  padding: 8px 16px;
   background-color: rgba(255, 255, 255, 0);
   color: #0057b3;
   border: none;
   cursor: pointer;
-  margin: 0 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4821,6 +4825,56 @@ FAQs CSS
 .presentations-area .btn-articles:hover {
   color: var(--white);
   background-color: #6941C6;
+}
+
+/*----------------------------------------*/
+/*  Review Area
+/*----------------------------------------*/
+.thinking {
+  font-family: "Plus Jakarta Sans";
+}
+.thinking h4 {
+  color: var(--title-color);
+}
+.thinking-title {
+  font-weight: 700;
+  letter-spacing: -0.22px;
+  font-size: 21px;
+  line-height: 30px;
+}
+.thinking-text {
+  color: var(--pragraph-color);
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 15px;
+}
+.thinking .break-line {
+  display: none;
+}
+.thinking .subscribe {
+  margin: auto;
+}
+.thinking .subscribe-input {
+  max-width: 360px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 4px;
+  border: 1px solid var(--Gray-300, #D0D5DD);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  padding: 12px 14px;
+}
+.thinking .subscribe-btn {
+  margin-left: 8px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--secondary);
+  background: var(--secondary);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 
 /*----------------------------------------*/
@@ -5117,21 +5171,6 @@ FAQs CSS
 .product-item {
   display: block;
   margin-bottom: 30px;
-}
-
-/*----------------------------------------*/
-/*  Review Area
-/*----------------------------------------*/
-.statistics-title {
-  font-size: 37px;
-  font-weight: 700;
-  line-height: 47px;
-  letter-spacing: -2px;
-}
-.statistics-text {
-  color: var(--gray-2);
-  font-weight: 500;
-  margin-bottom: 10px;
 }
 
 /*----------------------------------------*/

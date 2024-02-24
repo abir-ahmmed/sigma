@@ -1,0 +1,56 @@
+/*----------------------------------------*/
+/*  Review Area
+/*----------------------------------------*/
+.thinking {
+  font-family: "Plus Jakarta Sans";
+  h4{
+    color: $title-color;
+  }
+  &-title{
+    font-weight: 700;
+    letter-spacing: -0.22px;
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  &-text{
+    color: $pragraph-color;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+  }
+
+  .break-line{
+    display: none;
+  }
+
+  .subscribe{
+    margin: auto;
+    &-input{
+      max-width: 360px;
+      width: 100%;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      border-radius: 4px;
+      border: 1px solid var(--Gray-300, #D0D5DD);
+      box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+      padding: 12px 14px;
+      // align-items: center;
+      // gap: 8px;
+      // align-self: stretch;
+    }
+
+    &-btn{
+      margin-left: 8px;
+      padding: 12px 20px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      border-radius: 4px;
+      border: 1px solid $secondary;
+      background: $secondary;
+      box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+  }
+}

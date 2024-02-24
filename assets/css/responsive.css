@@ -411,6 +411,9 @@
     .hero-text .break-line{
         display: block;
     }
+    .thinking .break-line{
+        display: block;
+    }
     .hero-area-2 .hero-title .break-line{
         display: block;
     }
@@ -608,6 +611,16 @@
         line-height: 24px;
         padding-top: 8px;
         padding-bottom: 24px;
+    }
+
+    /* Thinking Area */
+    .thinking .thinking-title{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .thinking .thinking-text{
+        line-height: 26px;
+        font-size: 16px;
     }
 
     /* Footer Area */
