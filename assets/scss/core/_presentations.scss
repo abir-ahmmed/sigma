@@ -9,7 +9,7 @@
       .presentations{
         overflow: hidden;
         .pagination{
-          button,.pages{
+          .pages{
             color: $gray-6;
 
           }
@@ -35,6 +35,7 @@
             align-items: center;
             justify-content: center;
             transition: .4s ease;
+            display: none;
         }
         .active {
             font-size: 1.3em;

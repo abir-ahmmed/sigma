@@ -419,9 +419,9 @@ h6 {
   font-size: 28px;
   line-height: 1.3;
 }
-.section-title- {
-  font-size: 28px;
-  line-height: 1.3;
+.section-title-2 {
+  font-size: 25px;
+  line-height: 1;
 }
 .section-text {
   font-size: 14px;
@@ -4753,7 +4753,7 @@ FAQs CSS
 .presentations-area .presentations-slider .presentations .pagination {
   border-top: 1px solid #EAECF0;
 }
-.presentations-area .presentations-slider .presentations .pagination button, .presentations-area .presentations-slider .presentations .pagination .pages {
+.presentations-area .presentations-slider .presentations .pagination .pages {
   color: var(--gray-6);
 }
 .presentations-area .presentations-slider .presentations .pagination .page-number.number-pagination .swiper-pagination-bullet {
@@ -4775,6 +4775,7 @@ FAQs CSS
   align-items: center;
   justify-content: center;
   transition: 0.4s ease;
+  display: none;
 }
 .presentations-area .presentations-slider .presentations .pagination .active {
   font-size: 1.3em;

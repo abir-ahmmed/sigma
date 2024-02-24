@@ -215,6 +215,11 @@
         font-size: 22px;
     }
 
+    /*presentations  Area*/
+    .presentations-area .presentations-slider .presentations .pagination .page-number{
+        display: block;
+    }
+
     /*Footer Area*/
 
     .footer-title{
