@@ -23,17 +23,17 @@
         color: $gray-8;
         font-weight: 700;
         letter-spacing: -0.58px;
-        font-size: 29px;        
-        line-height: 39px;
+        font-size: 26px;        
+        line-height: 33px;
       }
 
       .cpu-qut{
         text-align: center;
         font-style: italic;
         font-weight: 500;
-        font-size: 22px;
-        line-height: 32px;
         letter-spacing: -0.44px;
+        font-size: 18px;
+        line-height: 24px;
       }
 
       .cpu-subtitle{
@@ -60,7 +60,7 @@
       .cpu-btn{
         display: flex;
         overflow: hidden;
-        gap: 10px;
+        // gap: 10px;
         .btn-cpu{
           padding: 2px 10px;
           border-radius: 4px;
@@ -71,6 +71,7 @@
           font-weight: 500;
           font-size: 14px;
           line-height: 20px;
+          margin-right: 10px;
 
           &:hover{
             background-color: rgba(14, 0, 98, 0.2);

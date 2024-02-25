@@ -4959,16 +4959,16 @@ FAQs CSS
   color: var(--gray-8);
   font-weight: 700;
   letter-spacing: -0.58px;
-  font-size: 29px;
-  line-height: 39px;
+  font-size: 26px;
+  line-height: 33px;
 }
 .processore-area .cpu-content .cpu-qut {
   text-align: center;
   font-style: italic;
   font-weight: 500;
-  font-size: 22px;
-  line-height: 32px;
   letter-spacing: -0.44px;
+  font-size: 18px;
+  line-height: 24px;
 }
 .processore-area .cpu-content .cpu-subtitle {
   color: var(--gray-8);
@@ -4993,7 +4993,6 @@ FAQs CSS
 .processore-area .cpu-content .cpu-btn {
   display: flex;
   overflow: hidden;
-  gap: 10px;
 }
 .processore-area .cpu-content .cpu-btn .btn-cpu {
   padding: 2px 10px;
@@ -5005,6 +5004,7 @@ FAQs CSS
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
+  margin-right: 10px;
 }
 .processore-area .cpu-content .cpu-btn .btn-cpu:hover {
   background-color: rgba(14, 0, 98, 0.2);

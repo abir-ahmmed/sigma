@@ -253,6 +253,16 @@
         line-height: 26px;
     }
 
+    .processore-area .cpu-content .cpu-title{
+        font-size: 29px;        
+        line-height: 39px;
+    }
+
+    .processore-area .cpu-content .cpu-qut{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
     /*Footer Area*/
 
     .footer-title{
@@ -676,7 +686,7 @@
     .processore .break-line{
         display: block;
     }
-    
+
     /* Footer Area */
     .footer-menu {
         padding-top: 0;
