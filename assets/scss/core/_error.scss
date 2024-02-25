@@ -1,0 +1,16 @@
+/*----------------------------------------*/
+/*  Stories Area
+/*----------------------------------------*/
+.error {
+    &-area {
+        .error-subtitle{
+            color: $secondary;
+            text-align: center;
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px; /* 150% */
+        }
+    }
+
+}
