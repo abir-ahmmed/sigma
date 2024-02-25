@@ -99,6 +99,10 @@
         display: block;
     }
 
+    .hero-area .hero-blog .break-line{
+        display: block;
+    }
+
     .hero-area .hero-blog .articles-btn a{
         font-size: 14px;
         line-height: 20px;
