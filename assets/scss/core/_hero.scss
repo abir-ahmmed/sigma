@@ -197,27 +197,32 @@
 
                 }
 
+            .hero-title{
+                line-height: 32px;
+            }
             .hero-text{
                 color: $pragraph-color;
                 font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
+                font-size: 13px;
+                line-height: 20px;
             }
 
             .hero-client{
+                margin: auto 0;                
                 .client-title{
                     color: $black-17;
                     font-weight: 700;
                     letter-spacing: -0.18px;
-                    font-size: 18px;
-                    line-height: 28px;
+                    font-size: 15px;
+                    line-height: 22px;
                 }
 
                 .client-text{
                     color: $gray-6;
                     font-weight: 400;
-                    font-size: 16px;
-                    line-height: 26px;
+                    font-size: 13px;
+                    line-height: 20px;
+
                 }
             }
 

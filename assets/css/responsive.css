@@ -50,6 +50,11 @@
         line-height: 50px;
         letter-spacing: -1.2px;
     }
+
+    .hero-area .hero-blog .hero-title{
+        line-height: 57px;
+    }
+
     .hero-text {
         font-size: 16px;
         line-height: 1.7;
@@ -99,13 +104,21 @@
         display: block;
     }
 
-    .hero-area .hero-blog .break-line{
-        display: block;
-    }
+
 
     .hero-area .hero-blog .articles-btn a{
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .hero-area .hero-blog .hero-client .client-title{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .hero-area .hero-blog .hero-client .client-text{
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .form-group input {
@@ -227,6 +240,17 @@
     /*presentations  Area*/
     .presentations-area .presentations-slider .presentations .pagination .page-number{
         display: block;
+    }
+
+    /*Processore Area*/
+    .processore-area .cpu-content .social-icon ul{
+        display: grid;
+        padding-left: 0;
+    }
+
+    .processore-area .cpu-content .cpu-text{
+        font-size: 16px;
+        line-height: 26px;
     }
 
     /*Footer Area*/
@@ -425,6 +449,11 @@
     .hero-text .break-line{
         display: block;
     }
+
+    .hero-area .hero-blog .break-line{
+        display: block;
+    }
+
     .thinking .break-line{
         display: block;
     }
@@ -458,6 +487,12 @@
     .hero-content a {
         font-size: 20px;
     }
+
+    .hero-area .hero-blog .hero-text{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
     .hero-text-3 {
         font-size: 24px;
     }
@@ -637,6 +672,11 @@
         font-size: 16px;
     }
 
+    /* Processore Area */
+    .processore .break-line{
+        display: block;
+    }
+    
     /* Footer Area */
     .footer-menu {
         padding-top: 0;
