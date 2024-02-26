@@ -215,9 +215,23 @@ h6 {
   &-6 {
     background-color: $bg-6;
   }
-  &-blue-light-50{
-    background-color: #F0F9FF;
+  &-blue{
+    &-light{
+      &-50{
+        background-color: #F0F9FF;
+      }
+      &-15{
+        background-color: rgba(0, 163, 255, 0.15);
+      }
+    }
+
+    &-navy{
+      &-15{
+        background-color: rgba(51, 0, 255, 0.15);
+      }
+    }
   }
+
   &-pink-50{
     background-color: #FDF2FA;
   }
@@ -234,6 +248,21 @@ h6 {
     background-color: #EEF4FF;
   }
   
+  &-piple{
+    &-15{
+      background-color: rgba(190, 4, 183, 0.15);
+    }
+  }
+  &-green{
+    &-15{
+      background-color: rgba(0, 209, 46, 0.15);
+    }
+  }
+  &-soul{
+    &-15{
+      background-color: rgba(204, 24, 0, 0.15);
+    }
+  }
 
   &-primary-50{
     background-color: #F9F5FF;
@@ -303,6 +332,12 @@ h6 {
     &-8{
       color: $gray-8;
     }
+    &-piple{
+      color: $piple;
+    }
+    &-blue{
+      color: $blue;
+    }
 
     
   }
@@ -319,7 +354,12 @@ h6 {
     color: #EEF4FF;
   }
   &-blue{
-    color: $blue-light;
+    &-light{
+      color: $blue-light;
+    }
+    &-navy{
+      color: $blue-navy;
+    }
   }
   &-success-700{
     color: #027A48;
@@ -335,6 +375,16 @@ h6 {
     &-101{
       color: #026AA2;
     }
+    &-navy{
+      color: $blue-navy;
+    }
+  }
+
+  &-piple{
+    color: $piple;
+  }
+  &-soul{
+    color: #D37540;
   }
 
 }

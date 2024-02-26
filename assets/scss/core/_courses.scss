@@ -35,6 +35,21 @@
                 }
             }
         }
+
+        &-3{
+
+            .courses-box{
+                .box-item{
+                    .courses-review{
+                        .courses-rating{
+                            .courses-icon{
+                                margin: auto 0;
+                            }
+                        }        
+                    }
+                }
+            }
+        }
         overflow: hidden;
         a.btn-blue{
             background: rgba(0, 163, 255, 0.15);
@@ -57,62 +72,62 @@
                 background: rgba(190, 4, 183, 0.25);
             }
         }
-        a.btn-piple-2{
-            background: rgba(51, 0, 255, 0.15);
-            color: $piple;
-            &:hover{
-                background: rgba(51, 0, 255, 0.25);
-            }
-        }
-        a.btn-piple-3{
-            background: rgba(204, 24, 0, 0.15);
-            color: $piple;
-            &:hover{
-                background: rgba(204, 24, 0, 0.25);
-            }
-        }
-        a.btn-green{
-            background: rgba(0, 209, 46, 0.15);
-            color: $green;
-            &:hover{
-                background: rgba(0, 209, 46, 0.25);
-            }
-        }
-        a.btn-soul{
-            background: rgba(204, 24, 0, 0.15);
-            color: #D37540;
-            &:hover{
-                background: rgba(204, 24, 0, 0.25);
-            }
-        }
-        a.btn-navy{
-            background: rgba(51, 0, 255, 0.15);
-            color: $blue-navy;
-            &:hover{
-                background: rgba(51, 0, 255, 0.25);
-            }
-        }
-        a.btn-navy{
-            background: rgba(51, 0, 255, 0.15);
-            color: $blue-navy;
-            &:hover{
-                background: rgba(51, 0, 255, 0.25);
-            }
-        }
-        a.btn-red{
-            background: rgba(255, 0, 92, 0.15);
-            color: $red;
-            &:hover{
-                background: rgba(255, 0, 92, 0.25);
-            }
-        }
-        a.btn-red-2{
-            background: rgba(204, 24, 0, 0.15);
-            color: $red-2;
-            &:hover{
-                background: rgba(204, 24, 0, 0.25);
-            }
-        }
+        // a.btn-piple-2{
+        //     background: rgba(51, 0, 255, 0.15);
+        //     color: $piple;
+        //     &:hover{
+        //         background: rgba(51, 0, 255, 0.25);
+        //     }
+        // }
+        // a.btn-piple-3{
+        //     background: rgba(204, 24, 0, 0.15);
+        //     color: $piple;
+        //     &:hover{
+        //         background: rgba(204, 24, 0, 0.25);
+        //     }
+        // }
+        // a.btn-green{
+        //     background: rgba(0, 209, 46, 0.15);
+        //     color: $green;
+        //     &:hover{
+        //         background: rgba(0, 209, 46, 0.25);
+        //     }
+        // }
+        // a.btn-soul{
+        //     background: rgba(204, 24, 0, 0.15);
+        //     color: #D37540;
+        //     &:hover{
+        //         background: rgba(204, 24, 0, 0.25);
+        //     }
+        // }
+        // a.btn-navy{
+        //     background: rgba(51, 0, 255, 0.15);
+        //     color: $blue-navy;
+        //     &:hover{
+        //         background: rgba(51, 0, 255, 0.25);
+        //     }
+        // }
+        // a.btn-navy{
+        //     background: rgba(51, 0, 255, 0.15);
+        //     color: $blue-navy;
+        //     &:hover{
+        //         background: rgba(51, 0, 255, 0.25);
+        //     }
+        // }
+        // a.btn-red{
+        //     background: rgba(255, 0, 92, 0.15);
+        //     color: $red;
+        //     &:hover{
+        //         background: rgba(255, 0, 92, 0.25);
+        //     }
+        // }
+        // a.btn-red-2{
+        //     background: rgba(204, 24, 0, 0.15);
+        //     color: $red-2;
+        //     &:hover{
+        //         background: rgba(204, 24, 0, 0.25);
+        //     }
+        // }
     }
     
     &-box{
@@ -148,8 +163,6 @@
     
     }
     &-review{
-        padding-top: 8px;
-        padding-bottom: 5px;
         padding-left: 10px;
         padding-right: 10px;
 
