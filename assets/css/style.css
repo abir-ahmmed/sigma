@@ -954,6 +954,10 @@ h6 {
   padding-top: 20px;
 }
 
+.pt-24 {
+  padding-top: 24px;
+}
+
 .pt-25 {
   padding-top: 25px;
 }
@@ -1723,6 +1727,9 @@ h6 {
   .pt-lg-35 {
     padding-top: 35px;
   }
+  .pt-lg-38 {
+    padding-top: 38px;
+  }
   .pt-lg-40 {
     padding-top: 40px;
   }
@@ -1791,6 +1798,9 @@ h6 {
   }
   .pt-lg-120 {
     padding-top: 120px;
+  }
+  .pb-lg-16 {
+    padding-bottom: 16px;
   }
   .pb-lg-20 {
     padding-bottom: 20px;
@@ -2591,7 +2601,7 @@ h6 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  font-size: 12px;
 }
 .btn-articles {
   padding: 2px 10px;
@@ -4061,11 +4071,13 @@ h6 {
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.28px;
-  padding-top: 24px;
-  padding-bottom: 16px;
 }
 .courses-box .box-item .courses-content .courses-duration svg {
-  margin: auto;
+  margin: auto 0;
+}
+.courses-box .box-item .courses-content .courses-duration .duration-lession {
+  margin: 0;
+  padding-left: 8px;
 }
 .courses-review {
   padding-left: 10px;

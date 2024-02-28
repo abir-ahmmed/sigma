@@ -70,15 +70,17 @@
                 }
                 .courses-duration{
                     svg{
-                        margin: auto;
+                        margin: auto 0;
                     }
                     color: $pragraph-color;
                     font-weight: 600;
                     font-size: 12px;
                     line-height: 18px;
                     letter-spacing: 0.28px;
-                    padding-top: 24px;
-                    padding-bottom: 16px;
+                    .duration-lession{
+                        margin: 0;
+                        padding-left: 8px;
+                    }
                 }
             }
             
@@ -89,7 +91,6 @@
     &-review{
         padding-left: 10px;
         padding-right: 10px;
-
 
         .courses-rating{ 
             .courses-icon{

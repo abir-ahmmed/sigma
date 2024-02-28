@@ -799,10 +799,7 @@
 
 /* Extra extra large */
 @media screen and (min-width: 1400px) {
-    /* .container-sm{
-        max-width: 1120px;
-        margin: 0 auto;
-    } */
+
     .container-md{
         max-width: 1348px;
         margin: 0 auto;
@@ -896,16 +893,10 @@
 
     /* Courses Area */
     .courses-box a,h6{
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 700;
         
     }
-
-    .courses-review{
-    /* .courses-review{
-        padding-left: 16px;
-        padding-right: 15px;
-    } */
 
     /* Contact Area */
     .contact-row {
@@ -938,5 +929,11 @@
         margin-left: 32px;
         width: 70%;
         margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .courses-box a, h6{
+        font-size: 14px;
     }
 }
