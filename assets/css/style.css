@@ -349,6 +349,9 @@ h6 {
 .bg-piple-15 {
   background-color: rgba(190, 4, 183, 0.15);
 }
+.bg-piple-2-15 {
+  background-color: rgba(51, 0, 255, 0.15);
+}
 .bg-green-15 {
   background-color: rgba(0, 209, 46, 0.15);
 }
@@ -459,6 +462,9 @@ h6 {
 }
 .text-blue-navy {
   color: var(--blue-navy);
+}
+.text-green {
+  color: var(--green);
 }
 .text-piple {
   color: var(--piple);
@@ -1410,6 +1416,10 @@ h6 {
 
 .pl-100 {
   padding-left: 100px;
+}
+
+.gap-11 {
+  gap: 11px;
 }
 
 @media (min-width: 992px) {
@@ -3623,9 +3633,6 @@ h6 {
   font-size: 13px;
   line-height: 20px;
 }
-.hero-area .hero-blog .break-line {
-  display: none;
-}
 .hero-area .error-img {
   max-width: 881px;
   width: 100%;
@@ -3729,12 +3736,6 @@ h6 {
   line-height: 38px;
   letter-spacing: -2.2px;
 }
-.hero-title .break-line {
-  display: none;
-}
-.hero-title .break-line {
-  display: none;
-}
 .hero-title-skills {
   position: relative;
 }
@@ -3811,9 +3812,6 @@ h6 {
   font-size: 15px;
   text-align: justify;
   line-height: 25px;
-}
-.hero-text .break-line {
-  display: none;
 }
 .hero-text-2 {
   font-size: 16px;
@@ -4043,27 +4041,6 @@ h6 {
 }
 .courses-area-3 .courses-box .box-item .courses-review .courses-rating .courses-icon {
   margin: auto 0;
-}
-.courses-area a.btn-blue {
-  background: rgba(0, 163, 255, 0.15);
-  color: var(--blue);
-}
-.courses-area a.btn-blue:hover {
-  background: rgba(0, 163, 255, 0.25);
-}
-.courses-area a.btn-blue-2 {
-  background: rgba(0, 209, 46, 0.15);
-  color: var(--blue);
-}
-.courses-area a.btn-blue-2:hover {
-  background: rgba(0, 209, 46, 0.25);
-}
-.courses-area a.btn-piple {
-  background: rgba(190, 4, 183, 0.15);
-  color: var(--piple);
-}
-.courses-area a.btn-piple:hover {
-  background: rgba(190, 4, 183, 0.25);
 }
 .courses-box .box-item {
   border-radius: 8px;
@@ -4879,7 +4856,7 @@ FAQs CSS
 .thinking-title {
   font-weight: 700;
   letter-spacing: -0.22px;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 30px;
 }
 .thinking-text {

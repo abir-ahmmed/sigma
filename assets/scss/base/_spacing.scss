@@ -672,6 +672,11 @@
   padding-left: 100px;
 }
 
+.gap{
+  &-11{
+    gap: 11px;
+  }
+}
 
 @media (min-width: 992px) {
   .mt-lg-20 {
