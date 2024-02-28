@@ -240,6 +240,9 @@
 .mr-110 {
   margin-right: 110px;
 }
+.-ml-4 {
+  margin-left: -4px;
+}
 .ml-10 {
   margin-left: 10px;
 }
@@ -560,6 +563,9 @@
 .pr-15 {
   padding-right: 15px;
 }
+.pr-16 {
+  padding-right: 16px;
+}
 .pr-20 {
   padding-right: 20px;
 }
@@ -614,6 +620,7 @@
 .pr-115 {
   padding-right: 115px;
 }
+
 .pl-10 {
   padding-left: 10px;
 }
@@ -676,6 +683,7 @@
 }
 
 .gap{
+
   &-11{
     gap: 11px;
   }

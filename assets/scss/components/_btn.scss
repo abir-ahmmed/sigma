@@ -49,6 +49,18 @@
         font-size: 12px;
     }
 
+    &-chart{
+        display: inline-flex;
+        padding: 4px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 27px; /* 192.857% */
+    }
+
     &-articles{
         padding: 2px 10px;
         border-radius: 16px;

@@ -151,10 +151,7 @@
             font-size: 16px;
             line-height: 24px;
         }
-    /* Courses Area */
-    .courses-title{
-        font-size: 18px;
-    }
+
 
     /* Contact Area */
     .contact-title-big {
@@ -475,9 +472,7 @@
 
     
     /* Courses Area */
-    .courses-content{
-        padding: 0 10px 14px 10px;
-    }
+
     .courses-duration{
         font-size: 14px;
         line-height: 22px;
@@ -718,9 +713,12 @@
         line-height: 28px;
     }
 
-    /* courses Area */
-    .courses-title{
-        font-size: 20px;
+    /* Courses Area */
+    .courses-box .box-item .courses-content .courses-title{
+        font-size: 18px;
+    }
+    .courses-box .box-item .courses-content .courses-title-2{
+        font-size: 18px;
     }
 
     .courses-author .author-title{
@@ -933,7 +931,14 @@
 }
 
 @media screen and (min-width: 1600px) {
+    
+    /* courses Area */
     .courses-box a, h6{
         font-size: 14px;
     }
+
+    .courses-box .box-item .courses-content .courses-title{
+        font-size: 20px;
+    }    
+   
 }

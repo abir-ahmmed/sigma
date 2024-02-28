@@ -178,6 +178,9 @@ h6 {
 }
 
 .bg {
+  &-secondary-2{
+    background-color: $secondary;
+  }
   &-black {
     background-color: $black;
 
@@ -300,6 +303,21 @@ h6 {
 }
 .border-color{
   color: $primary-2;
+}
+.border{
+  &-top{
+    &-gray{
+      border-top: 1px solid rgba(210, 210, 210, 0.40);
+
+    }
+  }
+  &-bottom{
+    &-gray{
+      border-bottom: 1px solid rgba(210, 210, 210, 0.40);
+
+    }
+  }
+  
 }
 .color{
   &-primary{
