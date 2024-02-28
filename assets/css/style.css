@@ -328,6 +328,12 @@ h6 {
 .bg-pink-50 {
   background-color: #FDF2FA;
 }
+.bg-red-15 {
+  background-color: rgba(255, 0, 92, 0.15);
+}
+.bg-red-2-15 {
+  background-color: rgba(204, 24, 0, 0.15);
+}
 .bg-ros-50 {
   background-color: #FFF1F3;
 }
@@ -417,6 +423,12 @@ h6 {
 }
 .text-pink {
   color: #C11574;
+}
+.text-red {
+  color: var(--red);
+}
+.text-red-2 {
+  color: var(--red-2);
 }
 .text-ros {
   color: #C01048;

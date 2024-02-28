@@ -235,6 +235,16 @@ h6 {
   &-pink-50{
     background-color: #FDF2FA;
   }
+  &-red{
+    &-15{
+      background-color: rgba(255, 0, 92, 0.15);
+    }
+    &-2{
+      &-15{
+        background-color: rgba(204, 24, 0, 0.15);
+      }
+    }
+  }
   &-ros-50{
     background-color: #FFF1F3;
   }
@@ -343,6 +353,12 @@ h6 {
   }
   &-pink{
     color:#C11574 ;
+  }
+  &-red{
+    color: $red;
+    &-2{
+      color: $red-2
+    }
   }
   &-ros{
     color: #C01048;
