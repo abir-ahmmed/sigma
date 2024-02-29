@@ -74,7 +74,7 @@ Version      : 1.0
   --gray-6: #475467;
   --gray-7: #7C8087;
   --gray-8: #101828;
-  --gray-9: #899097;
+  --gray-9: #898888;
   --gray-10: #1B1B1B;
   --gray-11: #535353;
   --black: #000000;
@@ -367,6 +367,9 @@ h6 {
 .bg-gray-blue-50 {
   background-color: #F8F9FC;
 }
+.bg-pragraph {
+  background-color: var(--pragraph-color);
+}
 
 .color-primary {
   color: var(--primary);
@@ -388,6 +391,9 @@ h6 {
 }
 .border-bottom-gray {
   border-bottom: 1px solid rgba(210, 210, 210, 0.4);
+}
+.border-secondary-2 {
+  border: 1px solid var(--secondary);
 }
 
 .color-primary {
@@ -428,10 +434,13 @@ h6 {
 .text-gray-8 {
   color: var(--gray-8);
 }
-.text-gray-piple {
+.text-gray-9 {
+  color: var(--gray-9);
+}
+.text-piple {
   color: var(--piple);
 }
-.text-gray-blue {
+.text-blue {
   color: var(--blue);
 }
 .text-pink {
@@ -954,6 +963,10 @@ h6 {
 
 .pt-12 {
   padding-top: 12px;
+}
+
+.pt-13 {
+  padding-top: 13px;
 }
 
 .pt-15 {

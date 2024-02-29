@@ -289,6 +289,10 @@ h6 {
   &-gray-blue-50{
     background-color: #F8F9FC;
   }
+
+  &-pragraph{
+    background-color: $pragraph-color;
+  }
 }
 
 .color-primary {
@@ -315,6 +319,12 @@ h6 {
     &-gray{
       border-bottom: 1px solid rgba(210, 210, 210, 0.40);
 
+    }
+  }
+
+  &-secondary{
+    &-2{
+      border: 1px solid $secondary;
     }
   }
   
@@ -366,14 +376,17 @@ h6 {
     &-8{
       color: $gray-8;
     }
-    &-piple{
-      color: $piple;
+    &-9{
+      color: $gray-9;
     }
-    &-blue{
-      color: $blue;
-    }
-
     
+    
+  }
+  &-piple{
+    color: $piple;
+  }
+  &-blue{
+    color: $blue;
   }
   &-pink{
     color:#C11574 ;
