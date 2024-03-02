@@ -41,7 +41,6 @@
     }
     
     &-courses {
-        border-radius: 2px;
         padding: 0 10px;
         display: inline-flex;
         justify-content: center;
@@ -55,10 +54,17 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        border-radius: 4px;
         font-size: 14px;
         font-weight: 500;
         line-height: 27px; /* 192.857% */
+        &-2{
+            display: flex;
+            width: 307px;
+            padding: 4px 12px;
+            align-items: center;
+            gap: 10px;
+
+        }
     }
 
     &-articles{
@@ -67,6 +73,14 @@
         display: flex;
         align-items: center;
         margin-right: 10px;
+    }
+
+    &-category{
+        display: inline-flex;
+        padding: 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;   
     }
 
     &-intro{

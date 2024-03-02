@@ -544,6 +544,16 @@ h6 {
 .border-b {
   border-bottom: 2px solid var(--black-5);
 }
+.border-secondary-blue {
+  border: 1px solid var(--secondary-blue);
+}
+
+.rounded-xs {
+  border-radius: 2px;
+}
+.rounded-sm {
+  border-radius: 4px;
+}
 
 .mt-10 {
   margin-top: 10px;
@@ -2627,7 +2637,6 @@ h6 {
   background-color: var(--primary);
 }
 .btn-courses {
-  border-radius: 2px;
   padding: 0 10px;
   display: inline-flex;
   justify-content: center;
@@ -2640,10 +2649,16 @@ h6 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border-radius: 4px;
   font-size: 14px;
   font-weight: 500;
   line-height: 27px; /* 192.857% */
+}
+.btn-chart-2 {
+  display: flex;
+  width: 307px;
+  padding: 4px 12px;
+  align-items: center;
+  gap: 10px;
 }
 .btn-articles {
   padding: 2px 10px;
@@ -2651,6 +2666,13 @@ h6 {
   display: flex;
   align-items: center;
   margin-right: 10px;
+}
+.btn-category {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
 .btn-intro {
   margin: 0;

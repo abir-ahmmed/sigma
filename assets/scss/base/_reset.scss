@@ -512,6 +512,20 @@ h6 {
   &-b {
     border-bottom: 2px solid $black-5;
   }
+  &-secondary{
+    &-blue{
+      border: 1px solid $secondary-blue;
+    }
+  }
+
 }
 
+.rounded{
+  &-xs{
+    border-radius: 2px;
+  }
+  &-sm{
+    border-radius: 4px;
+  }
+}
 
