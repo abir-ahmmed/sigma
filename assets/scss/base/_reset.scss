@@ -305,30 +305,8 @@ h6 {
 .paragraph-color{
   color: $pragraph-color;
 }
-.border-color{
-  color: $primary-2;
-}
-.border{
-  &-top{
-    &-gray{
-      border-top: 1px solid rgba(210, 210, 210, 0.40);
 
-    }
-  }
-  &-bottom{
-    &-gray{
-      border-bottom: 1px solid rgba(210, 210, 210, 0.40);
 
-    }
-  }
-
-  &-secondary{
-    &-2{
-      border: 1px solid $secondary;
-    }
-  }
-  
-}
 .color{
   &-primary{
     color: $primary;
@@ -499,8 +477,33 @@ h6 {
   }
 }
 
+
+
 .border {
-  &-t{
+  &-top{
+    &-gray{
+      border-top: 1px solid rgba(210, 210, 210, 0.40);
+
+    }
+  }
+  &-bottom{
+    &-gray{
+      border-bottom: 1px solid rgba(210, 210, 210, 0.40);
+
+    }
+  }
+  &-color{
+    color: $primary-2;    
+  }
+  &-gray-9{
+    border: 1px solid $gray-9;
+  }
+  &-secondary{
+    &-2{
+      border: 1px solid $secondary;
+    }
+  }
+  &-top{
     border-top: 1px solid;
     &-p2{
       border-top: 1px solid $primary-2;
@@ -509,7 +512,7 @@ h6 {
       border-top: 1px solid $white;
     }
   }
-  &-b {
+  &-bottom {
     border-bottom: 2px solid $black-5;
   }
   &-secondary{
@@ -520,6 +523,7 @@ h6 {
 
 }
 
+
 .rounded{
   &-xs{
     border-radius: 2px;
@@ -527,5 +531,8 @@ h6 {
   &-sm{
     border-radius: 4px;
   }
+  &-2xl{
+    border-radius: 16px;
+  }	
 }
 

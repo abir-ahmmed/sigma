@@ -70,7 +70,7 @@ Version      : 1.0
   --gray-2: #858585;
   --gray-3: #BDBDBD;
   --gray-4: #B6B6B6;
-  --gray-5: #939393;
+  --gray-5: #4F5162;
   --gray-6: #475467;
   --gray-7: #7C8087;
   --gray-8: #101828;
@@ -382,20 +382,6 @@ h6 {
   color: var(--pragraph-color);
 }
 
-.border-color {
-  color: var(--primary-2);
-}
-
-.border-top-gray {
-  border-top: 1px solid rgba(210, 210, 210, 0.4);
-}
-.border-bottom-gray {
-  border-bottom: 1px solid rgba(210, 210, 210, 0.4);
-}
-.border-secondary-2 {
-  border: 1px solid var(--secondary);
-}
-
 .color-primary {
   color: var(--primary);
 }
@@ -532,16 +518,31 @@ h6 {
   line-height: 1.52;
 }
 
-.border-t {
+.border-top-gray {
+  border-top: 1px solid rgba(210, 210, 210, 0.4);
+}
+.border-bottom-gray {
+  border-bottom: 1px solid rgba(210, 210, 210, 0.4);
+}
+.border-color {
+  color: var(--primary-2);
+}
+.border-gray-9 {
+  border: 1px solid var(--gray-9);
+}
+.border-secondary-2 {
+  border: 1px solid var(--secondary);
+}
+.border-top {
   border-top: 1px solid;
 }
-.border-t-p2 {
+.border-top-p2 {
   border-top: 1px solid var(--primary-2);
 }
-.border-t-w {
+.border-top-w {
   border-top: 1px solid var(--white);
 }
-.border-b {
+.border-bottom {
   border-bottom: 2px solid var(--black-5);
 }
 .border-secondary-blue {
@@ -553,6 +554,9 @@ h6 {
 }
 .rounded-sm {
   border-radius: 4px;
+}
+.rounded-2xl {
+  border-radius: 16px;
 }
 
 .mt-10 {
@@ -1463,6 +1467,16 @@ h6 {
   padding-left: 100px;
 }
 
+.py-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .gap-11 {
   gap: 11px;
 }
@@ -1863,6 +1877,9 @@ h6 {
   }
   .pb-lg-40 {
     padding-bottom: 40px;
+  }
+  .pb-lg-43 {
+    padding-bottom: 43px;
   }
   .pb-lg-45 {
     padding-bottom: 45px;
@@ -2660,12 +2677,15 @@ h6 {
   align-items: center;
   gap: 10px;
 }
+.btn-filter {
+  gap: 3px;
+  color: var(--gray-5);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+}
 .btn-articles {
   padding: 2px 10px;
-  border-radius: 16px;
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
 }
 .btn-category {
   display: inline-flex;
