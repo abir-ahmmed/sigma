@@ -344,6 +344,11 @@ h6 {
   &-secondary-700{
     color: $secondary;
   }
+  &-white{
+    &-8{
+      color: $white-8;
+    }
+  }
   &-gray{
     &-2{
       color: $gray-2;
@@ -480,6 +485,9 @@ h6 {
 
 
 .border {
+  &-none{
+    border: none;
+  }
   &-top{
     &-gray{
       border-top: 1px solid rgba(210, 210, 210, 0.40);
@@ -531,8 +539,35 @@ h6 {
   &-sm{
     border-radius: 4px;
   }
-  &-2xl{
+  &-md{
+    border-radius: 8px;
+  }
+  &-lg{
     border-radius: 16px;
+  }	
+  &-xl{
+    border-radius: 32px;
+  }	
+  &-2xl{
+    border-radius: 64px;
   }	
 }
 
+.gap{
+
+  &-11{
+    gap: 11px;
+  }
+}
+
+.w{
+  &-40{
+    width: 40px;
+  }
+}
+
+.h{
+  &-40{
+    height: 40px;
+  }
+}

@@ -37,7 +37,6 @@
         }
 
         &-3{
-
             .courses-box{
                 .box-item{
                     .courses-review{
@@ -51,12 +50,9 @@
             }
         }
         overflow: hidden;
+    }    
 
-    }
-    
-    &-box{
-                
-                
+    &-box{                             
         .box-item {                
             border-radius: 8px;
             box-shadow: 0px 34.358px 171.789px 0px rgba(0, 0, 0, 0.11);  
@@ -142,5 +138,78 @@
                 line-height: 24px;
                 margin: auto;
     }
+
+    &-slider{
+        overflow: hidden;
+    }
+
+    .pagination{
+        .pages{
+          color: $gray-6;
+          display: none;
+
+        }
+
+        .page-number.number-pagination .swiper-pagination-bullet{
+          max-width: 4px;
+          height: 4px;
+          margin: 2px;
+        }
+
+        .page-number.number-pagination{
+          padding: 0 30px;
+        }
+
+        .page-number {
+          cursor: pointer;
+          // background-color: $white;
+          color: #999;
+          border-radius: 8px;
+          height: 40px;
+          width: 40px;
+          transition: .4s ease;
+      }
+      .active {
+          background-color: $white-7;
+      }
+      button {
+          width: 120px;
+          background-color: #ffffff00;
+          color: #0057b3;
+          cursor: pointer;
+      }        
+      button:hover {
+          color: #0056b3;
+      }
+      button:disabled {
+          background-color: #ffffff00;
+          color: #ccc;
+          cursor: not-allowed;
+      }
+      .pages{
+        position: relative;
+
+        .swiper-pagination{
+          position: absolute;
+        }
+      }
+      
+      #prevPage {
+          margin-right: 20px;
+      }
+      
+      #nextPage {
+          margin-left: 20px;
+      }
+      .arrow {
+          font-size: 20px;
+      }
+      
+      .nav-text {
+          font-size: 0.7em;
+          letter-spacing: 0.3em;
+      }
+      
+      }
 }
 

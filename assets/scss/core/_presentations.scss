@@ -11,9 +11,10 @@
         .pagination{
           .pages{
             color: $gray-6;
+            display: none;
 
           }
-          border-top: 1px solid #EAECF0;
+
           .page-number.number-pagination .swiper-pagination-bullet{
             max-width: 4px;
             height: 4px;
@@ -26,35 +27,22 @@
 
           .page-number {
             cursor: pointer;
-            background-color: white;
+            // background-color: $white;
             color: #999;
             border-radius: 8px;
-            height: 30px;
-            width: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            height: 40px;
+            width: 40px;
             transition: .4s ease;
             display: none;
         }
         .active {
-            font-size: 1.3em;
-            height: 40px;
-            width: 40px;
             background-color: $white-7;
-            // color: white;
         }
         button {
             width: 120px;
-            // padding: 8px 16px;
             background-color: #ffffff00;
             color: #0057b3;
-            border: none;
             cursor: pointer;
-            // margin: 0 5px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
         }        
         button:hover {
             color: #0056b3;

@@ -209,6 +209,39 @@
         },
 
       });
+      // blog Slider
+      const coursesSlider = new Swiper('.courses-slider', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+         navigation: {
+           nextEl: ".swiper-button-next-2",
+           prevEl: ".swiper-button-prev-2",
+         },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          // renderBullet: function (index, className) {
+          //   return '<span class="' + className + '">' + (index + 1) + "</span>";
+          // },
+        },
+        loop:true,
+        spaceBetween: 10,
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 1,
+            spaceBetween: 31,
+          },
+        },
+
+      });
       
     });
     

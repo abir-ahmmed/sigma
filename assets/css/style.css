@@ -411,6 +411,9 @@ h6 {
 .text-secondary-700 {
   color: var(--secondary);
 }
+.text-white-8 {
+  color: var(--white-8);
+}
 .text-gray-2 {
   color: var(--gray-2);
 }
@@ -518,6 +521,9 @@ h6 {
   line-height: 1.52;
 }
 
+.border-none {
+  border: none;
+}
 .border-top-gray {
   border-top: 1px solid rgba(210, 210, 210, 0.4);
 }
@@ -555,8 +561,29 @@ h6 {
 .rounded-sm {
   border-radius: 4px;
 }
-.rounded-2xl {
+.rounded-md {
+  border-radius: 8px;
+}
+.rounded-lg {
   border-radius: 16px;
+}
+.rounded-xl {
+  border-radius: 32px;
+}
+.rounded-2xl {
+  border-radius: 64px;
+}
+
+.gap-11 {
+  gap: 11px;
+}
+
+.w-40 {
+  width: 40px;
+}
+
+.h-40 {
+  height: 40px;
 }
 
 .mt-10 {
@@ -1475,10 +1502,6 @@ h6 {
 .px-2 {
   padding-top: 2px;
   padding-bottom: 2px;
-}
-
-.gap-11 {
-  gap: 11px;
 }
 
 @media (min-width: 992px) {
@@ -4204,6 +4227,65 @@ h6 {
   line-height: 24px;
   margin: auto;
 }
+.courses-slider {
+  overflow: hidden;
+}
+.courses .pagination .pages {
+  color: var(--gray-6);
+  display: none;
+}
+.courses .pagination .page-number.number-pagination .swiper-pagination-bullet {
+  max-width: 4px;
+  height: 4px;
+  margin: 2px;
+}
+.courses .pagination .page-number.number-pagination {
+  padding: 0 30px;
+}
+.courses .pagination .page-number {
+  cursor: pointer;
+  color: #999;
+  border-radius: 8px;
+  height: 40px;
+  width: 40px;
+  transition: 0.4s ease;
+}
+.courses .pagination .active {
+  background-color: var(--white-7);
+}
+.courses .pagination button {
+  width: 120px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #0057b3;
+  cursor: pointer;
+}
+.courses .pagination button:hover {
+  color: #0056b3;
+}
+.courses .pagination button:disabled {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ccc;
+  cursor: not-allowed;
+}
+.courses .pagination .pages {
+  position: relative;
+}
+.courses .pagination .pages .swiper-pagination {
+  position: absolute;
+}
+.courses .pagination #prevPage {
+  margin-right: 20px;
+}
+.courses .pagination #nextPage {
+  margin-left: 20px;
+}
+.courses .pagination .arrow {
+  font-size: 20px;
+}
+.courses .pagination .nav-text {
+  font-size: 0.7em;
+  letter-spacing: 0.3em;
+}
 
 /*----------------------------------------*/
 /*  Work Area
@@ -4862,11 +4944,9 @@ FAQs CSS
 .presentations-area .presentations-slider .presentations {
   overflow: hidden;
 }
-.presentations-area .presentations-slider .presentations .pagination {
-  border-top: 1px solid #EAECF0;
-}
 .presentations-area .presentations-slider .presentations .pagination .pages {
   color: var(--gray-6);
+  display: none;
 }
 .presentations-area .presentations-slider .presentations .pagination .page-number.number-pagination .swiper-pagination-bullet {
   max-width: 4px;
@@ -4878,32 +4958,21 @@ FAQs CSS
 }
 .presentations-area .presentations-slider .presentations .pagination .page-number {
   cursor: pointer;
-  background-color: white;
   color: #999;
   border-radius: 8px;
-  height: 30px;
-  width: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 40px;
+  width: 40px;
   transition: 0.4s ease;
   display: none;
 }
 .presentations-area .presentations-slider .presentations .pagination .active {
-  font-size: 1.3em;
-  height: 40px;
-  width: 40px;
   background-color: var(--white-7);
 }
 .presentations-area .presentations-slider .presentations .pagination button {
   width: 120px;
   background-color: rgba(255, 255, 255, 0);
   color: #0057b3;
-  border: none;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .presentations-area .presentations-slider .presentations .pagination button:hover {
   color: #0056b3;

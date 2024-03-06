@@ -168,6 +168,10 @@
         margin-bottom: 50px;
     }
 
+    /* courses area */
+    .courses .pagination .pages{
+        display:flex;
+    }
 
 
     /*Review Area*/
@@ -182,12 +186,14 @@
         height: 56px;
     }
     .review-slider .swiper-button-prev {
-
+        
         left: -34px;
         max-width: 56px;
         width: 100%;
         height: 56px;
     }
+    
+        /*presentations  Area*/
     .presentations-slider .swiper-button-next{
         right: -34px;
         max-width: 56px;
@@ -201,6 +207,11 @@
         width: 100%;
         height: 56px;
     }
+    
+    .presentations-area .presentations-slider .presentations .pagination .pages{
+        display: flex;
+    }
+
 
     /*Clients Area*/
     .clients-row {
@@ -210,11 +221,6 @@
     /*Review Area*/
     .review-quote {
         font-size: 22px;
-    }
-
-    /*presentations  Area*/
-    .presentations-area .presentations-slider .presentations .pagination .page-number{
-        display: block;
     }
 
     /*Processore Area*/
