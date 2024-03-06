@@ -209,7 +209,8 @@
         },
 
       });
-      // blog Slider
+
+      // Courses Slider
       const coursesSlider = new Swiper('.courses-slider', {
         slidesPerView: 1,
         spaceBetween: 10,

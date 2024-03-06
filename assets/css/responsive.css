@@ -42,7 +42,7 @@
         letter-spacing: -1.2px;
     }
     .hero-title-2 {
-        font-size: 47px;
+        font-size: 44px;
         line-height: 57px;
     }
     .hero-area-2 .hero-title {
@@ -76,7 +76,8 @@
         bottom: -20px;
     }
     .hero-text-2 {
-        width: 91%;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .hero-area-2 .hero-users .users-text{
@@ -425,10 +426,12 @@
     .hero-area .hero-title {
         font-size: 48px;
         line-height: 60px;
-        margin-top: 0;
-        
+        margin-top: 0;        
     }
-
+    .hero-title-2 {
+        font-size: 47px;
+        line-height: 57px;
+    }
 
     .hero-area-2 .hero-users .users-text{
         width: 38%;
