@@ -333,8 +333,26 @@ h6 {
   }
 }
 
-.fw-700{
-  font-weight: 700;
+.text{
+  &-xs{
+    font-size: 12px;
+  }
+  &-sm{
+    font-size: 14px;
+  }
+  &-md{
+    font-size: 16px;
+  }
+  &-lg{
+    font-size: 18;
+  }
+  &-xl{
+    font-size: 20;
+  }
+  &-2xl{
+    font-size: 24;
+  }
+  
 }
 
 .text{
@@ -343,6 +361,14 @@ h6 {
   }
   &-secondary-700{
     color: $secondary;
+  }
+  &-title{
+    &-50{
+      color: rgba(3, 7, 30, 0.50);
+    }
+    &-80{
+      color: $title-color-80;
+    }
   }
   &-white{
     &-8{
